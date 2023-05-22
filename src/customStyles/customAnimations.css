@@ -1,0 +1,16 @@
+.slide-in-top {
+	-webkit-animation: slide-in-top 0.5s both;
+	        animation: slide-in-top 0.5s both;
+}
+
+@media screen and (max-width: 768px) {
+	.mobile-slide-in-top {
+		-webkit-animation: slide-in-top 0.5s both;
+		        animation: slide-in-top 0.5s both;
+	}
+}
+
+.slide-out-top {
+	-webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}

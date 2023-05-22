@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.swipper-slider {
+		@apply relative;
+	}
+
+	.swiper-slide .text-container {
+		@apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2  text-white flex flex-col items-start justify-center w-full p-10 max-w-5xl;
+	}
+
+	.swiper-slide .text-container a {
+		@apply px-6 py-2 mobile:text-xl ring-1 ring-light-100 hover:ring-0
+        hover:text-primary-800 inline-block transition-all
+        duration-300 delay-200 rounded-full relative after:absolute after:content-[''] 
+        after:top-0 after:left-0 after:w-0 after:h-full after:bg-light-500 after:rounded-r-full
+        hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
+	}
+
+	.prevBtn, .nextBtn {
+		@apply z-20 cursor-pointer absolute top-1/2 
+		-translate-y-1/2 border border-white hover:border-0 text-white hover:text-primary-800 transition-all
+		duration-200 delay-100 text-xs mobile:text-3xl w-7 mobile:w-20 h-7 mobile:h-20 rounded-full after:absolute after:content-[''] 
+		after:top-0 after:left-0 after:w-0 after:h-full after:bg-light-500 after:rounded-r-full
+		hover:after:w-full after:transition-all after:duration-200 after:delay-200 isolate after:-z-20 overflow-hidden opacity-50 
+		hover:opacity-100;
+	}
+
+	.prevBtn {
+		@apply left-2 mobile:left-10 ;
+	}
+
+	.nextBtn {
+		@apply right-2 mobile:right-10 ;
+	}
+}

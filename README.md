@@ -2,7 +2,7 @@
 
 The "Rate Your Education" project aims to rank universities worldwide based on research papers and the on-ground learning environment. It provides valuable insights into the quality of education and academic reputation across institutions.
 
-This repository contains the frontend code for the project. The backend code can be found [here]('').
+This repository contains the frontend code for the project. The backend code can be found [here]('https://github.com/CRUD-Experts/rateyoureducation-backend').
 
 ## Table of Contents
 

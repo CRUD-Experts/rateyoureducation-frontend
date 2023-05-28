@@ -2,10 +2,11 @@ import Feature from "./Feature";
 import capIcon from "../../assets/icons/Graduation Cap.svg";
 import uniIcon from "../../assets/icons/University Campus.svg";
 import starIcon from "../../assets/icons/Star Filled.svg";
+import Section from "../Elements/Section";
 
 const Features = () => {
   return (
-    <section className="w-full max-w-6xl me-auto ms-auto bg-light-100 relative z-20 tablet:-mt-20 mb-9 p-8 flex flex-col mobile:flex-row justify-between gap-4 rounded-md shadow-xl">
+    <Section className="bg-light-100 relative z-20 tablet:-mt-20 mb-9 p-8 flex flex-col mobile:flex-row justify-between gap-4 rounded-md shadow-xl ">
       <Feature
         icon={capIcon}
         title="Lecturer"
@@ -30,7 +31,7 @@ const Features = () => {
         transparency and empowering students to make educated choices when 
         selecting courses and lecturers."
       />
-    </section>
+    </Section>
   );
 };
 

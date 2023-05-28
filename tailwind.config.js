@@ -40,7 +40,8 @@ export default {
           700: '#F9F9F9',
           800: '#F8F8F8',
           900: '#F7F7F7',
-        }
+        },
+        
       },
       maxWidth: {
         "desktop": "1440px"

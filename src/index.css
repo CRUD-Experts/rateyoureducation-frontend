@@ -4,6 +4,9 @@
 @tailwind utilities;
 
 @layer components {
+	.container {
+		@apply w-full max-w-6xl me-auto ms-auto;
+	}
 	.swipper-slider {
 		@apply relative;
 	}

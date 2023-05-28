@@ -51,7 +51,7 @@ export const Header = () => {
 					</a>
 					<a
 						href="#"
-						className="px-3 mobile:px-7 py-1 bg-light-100 hover:bg-primary-200 text-primary-800 rounded-full">
+						className="primary-btn text-sm">
 						Sign Up
 					</a>
 				</nav>

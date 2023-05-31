@@ -5,7 +5,7 @@
 
 @layer components {
 	.container {
-		@apply w-full max-w-6xl me-auto ms-auto;
+		@apply w-full max-w-desktop me-auto ms-auto;
 	}
 	.swipper-slider {
 		@apply relative;
@@ -23,7 +23,8 @@
         hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
 	}
 
-	.prevBtn, .nextBtn {
+	.prevBtn,
+	.nextBtn {
 		@apply z-20 cursor-pointer absolute top-1/2 
 		-translate-y-1/2 border border-white hover:border-0 text-white hover:text-primary-800 transition-all
 		duration-200 delay-100 text-xs mobile:text-3xl w-7 mobile:w-20 h-7 mobile:h-20 rounded-full after:absolute after:content-[''] 
@@ -33,16 +34,61 @@
 	}
 
 	.prevBtn {
-		@apply left-2 mobile:left-10 ;
+		@apply left-2 mobile:left-10;
 	}
 
 	.nextBtn {
-		@apply right-2 mobile:right-10 ;
+		@apply right-2 mobile:right-10;
 	}
-	.primary-btn {
-		@apply relative bg-light-100 text-primary-700 hover:text-light-100 transition-all duration-300 delay-300 after:content-[''] overflow-hidden after:absolute isolate
-		after:top-0 after:left-0 after:-z-10  hover:after:w-full after:rounded-full
-		after:transition-all after:duration-300 after:delay-300 after:w-0 after:h-full after:bg-primary-700 px-4 py-1 rounded-full;
+	.light-btn {
+		@apply relative bg-light-100 text-primary-700 hover:text-light-100 transition-all 
+		duration-300 delay-300 after:content-[''] overflow-hidden after:absolute isolate 
+		after:top-0 after:left-0 after:-z-10 hover:after:w-full after:rounded-full
+		after:transition-all after:duration-300 after:delay-300 after:w-0 after:h-full 
+		after:bg-primary-700 px-4 py-1 rounded-full;
+	}
+	.btn {
+		@apply px-6 py-2 rounded-md;
+	}
+	
+	.primary-outline-btn {
+		@apply ring-1 ring-primary-800 hover:ring-0
+        hover:text-light-100 inline-block transition-all
+        duration-300 delay-200 relative after:absolute after:content-[''] 
+        after:top-0 after:left-0 after:w-0 after:h-full after:bg-primary-800 
+        hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
+	}
+
+	.data-table {
+		@apply w-full table-auto border-spacing-y-4 border-separate bg-light-100 p-4 mt-10;
+	}
+
+	.data-table tr {
+		@apply text-left font-light;
+	}
+
+	.data-table thead tr {
+		@apply text-lg;
+	}
+
+	.data-table thead tr th {
+		@apply font-normal;
+	}
+
+	.data-table tbody tr {
+		@apply hover:bg-light-700;
+	}
+
+	.data-table tbody tr td {
+		@apply px-4;
+	}
+
+	.data-table tbody tr td:not(:last-child) {
+		@apply border-r-2 border-r-primary-300;
+	}
+
+	.data-table tbody tr td:nth-child(2) {
+		@apply border-0;
 	}
 
 }

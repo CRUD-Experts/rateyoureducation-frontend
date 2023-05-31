@@ -1,6 +1,5 @@
 import { HomeCarousel } from "../../components/HomeCarousel";
 import Features from "../../components/HomeFeatures/Features";
-import SectionHeader from "../../components/Headers/SectionHeader";
 import UniversityRanking from "../../components/UniversityRanking";
 
 export const Home = () => {

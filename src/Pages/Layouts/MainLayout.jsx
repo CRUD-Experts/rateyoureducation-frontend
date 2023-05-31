@@ -5,7 +5,7 @@ export const MainLayout = () => {
   return (
     <>
         <Header />
-        <main >
+        <main>
           <Outlet />
         </main>
         {/* footer goes here */}

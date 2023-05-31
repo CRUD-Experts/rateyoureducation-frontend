@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
 import { MainLayout } from "./Pages/Layouts/MainLayout";
 import { Home } from "./Pages/Public/Home";
 import { Rankings } from "./Pages/Public/Rankings";
@@ -9,7 +8,7 @@ import Signup from "./Pages/Public/Signup";
 
 function App() {
   return (
-    <div className="text-primary-900 bg-light-900">
+    <div className="text-primary-900 bg-light-500">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainLayout />}>

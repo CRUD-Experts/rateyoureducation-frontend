@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 const Feature = ({ icon, title, summary }) => {
   return (
     <div className="flex items-center gap-5">
@@ -6,7 +7,7 @@ const Feature = ({ icon, title, summary }) => {
       </div>
       <div className="flex-1">
         <h2 className="font-bold uppercase">{title}</h2>
-        <p className=" text-xs font-light">{summary}</p>
+        <p className=" text-sm font-light">{summary}</p>
       </div>
     </div>
   );

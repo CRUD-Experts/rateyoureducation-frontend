@@ -6,7 +6,7 @@ import {
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRef } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import "../customStyles/keyframes.css"
 import "../customStyles/customAnimations.css"
@@ -49,11 +49,11 @@ export const Header = () => {
 						className="mobile:text-xl">
 						<FontAwesomeIcon icon={faTwitter} />
 					</a>
-					<a
+					<Link
 						href="#"
-						className="primary-btn text-sm">
+						className="light-btn text-sm">
 						Sign Up
-					</a>
+					</Link>
 				</nav>
 			</div>
 			<div className="flex justify-start mobile:justify-center py-3 px-2 mobile:px-10 bg-white">

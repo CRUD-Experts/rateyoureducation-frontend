@@ -1,5 +1,6 @@
 import { HomeCarousel } from "../../components/HomeCarousel";
 import Features from "../../components/HomeFeatures/Features";
+import { LecturerRanking } from "../../components/LecturerRanking";
 import UniversityRanking from "../../components/UniversityRanking";
 
 export const Home = () => {
@@ -10,6 +11,7 @@ export const Home = () => {
       </section>
       <Features />
       <UniversityRanking />
+      <LecturerRanking />
 
     </>
   );

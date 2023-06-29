@@ -1,5 +1,6 @@
 import { lecturers } from "../DummyData"
 import { StackedImages } from "./Aesthetics/StackedImages";
+import { Button } from "./Elements/Buttons/Button";
 import Section from "./Elements/Section"
 import SectionHeader from "./Headers/SectionHeader"
 import { IndiLectureRank } from "./IndiLectureRank";
@@ -26,6 +27,9 @@ export const LecturerRanking = () => {
                   />
                 ))
               }
+            <Button  className="ml-8" > 
+              View All
+            </Button>
               </div>
               <StackedImages />
             </div>

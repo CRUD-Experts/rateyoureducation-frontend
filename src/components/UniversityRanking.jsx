@@ -1,9 +1,10 @@
-import { Link } from "react-router-dom";
 import Section from "./Elements/Section";
 import SectionHeader from "./Headers/SectionHeader";
 import { IndiRanks } from "./IndiRanks";
 import { universities } from "../DummyData";
 import { StackedImages } from "./Aesthetics/StackedImages";
+// import { OutlineButton } from "./Elements/Buttons/OutlineButton";
+import { Button } from "./Elements/Buttons/Button";
 
 const UniversityRanking = () => {
 	const data = universities;
@@ -31,11 +32,10 @@ const UniversityRanking = () => {
 							hIndex={rank.hIndex}
 						/>
 					))}
-					<Link
-						to="/universities"
-						className="primary-outline-btn btn text-sm">
+					<Button   className="ml-8" >
 						View All
-					</Link>
+					</Button>
+					
 				</div>
 
 				<StackedImages

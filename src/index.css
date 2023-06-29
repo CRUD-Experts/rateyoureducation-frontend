@@ -52,10 +52,18 @@
 	}
 	
 	.primary-outline-btn {
-		@apply ring-1 ring-primary-800 hover:ring-0
+		@apply ring-1 ring-primary-800 hover:ring-0 
         hover:text-light-100 inline-block transition-all
         duration-300 delay-200 relative after:absolute after:content-[''] 
         after:top-0 after:left-0 after:w-0 after:h-full after:bg-primary-800 
+        hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
+	}
+
+	.primary-btn {
+		@apply ring-primary-800 hover:ring-0 bg-primary-800 text-light-100
+        hover:text-light-100 inline-block transition-all 
+        duration-300 delay-200 relative after:absolute after:content-[''] 
+        after:top-0 after:left-0 after:w-0 after:h-full after:bg-primary-900 
         hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
 	}
 

@@ -8,7 +8,7 @@ import Signup from "./Pages/Public/Signup";
 
 function App() {
   return (
-    <div className="text-primary-900 bg-light-500">
+    <div className="text-primary-900 bg-light-100">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<MainLayout />}>

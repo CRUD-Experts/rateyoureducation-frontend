@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { DotSeparator } from "./Aesthetics/DotSeparator";
+import { Link } from "react-router-dom";
 
 export const IndiRanks = ({
+	id,
 	rank,
 	logo,
 	name,
@@ -10,7 +12,7 @@ export const IndiRanks = ({
 	scholars,
 	publications,
 	hIndex,
-	loaded = false
+	loaded = false,
 }) => {
 	if (!loaded) {
 		return (
@@ -23,7 +25,8 @@ export const IndiRanks = ({
 					</div>
 				</div>
 			</div>
-		)}
+		);
+	}
 	return (
 		<motion.div
 			initial={{ opacity: 0, translateY: 50, scale: 0.9 }}
@@ -53,11 +56,11 @@ export const IndiRanks = ({
 					</div>
 				</div>
 			</div>
-			<a
+			<Link
 				className="mobile:opacity-0 mobile:group-hover:opacity-100 justify-self-end px-3 py-2 text-primary-700 rounded-md transition-all duration-150 ease-in-out mobile:bg-transparent bg-primary-100 hover:bg-primary-100"
-				href="#">
+				to={`rankings/universities/${id}`}>
 				View
-			</a>
+			</Link>
 		</motion.div>
 	);
 };

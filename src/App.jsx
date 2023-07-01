@@ -9,6 +9,7 @@ import Signup from "./Pages/Public/Signup";
 import { RankingsLayout } from "./Pages/Layouts/RankingsLayout";
 import UniversityRanking from "./components/UniversityRanking";
 import { LecturerRanking } from "./components/LecturerRanking";
+import { UniversityDetails } from "./Pages/Public/UniversityDetails";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
               <Route path="universities" element={<UniversityRanking limit={10} hasImages={false} hasButton={false} animate={false} />} />
               <Route path="scholars" element={<LecturerRanking limit={10} hasButton={false} hasImage={false} animate={false} />} />
             </Route>
+            <Route path="rankings/universities/:id" element={<UniversityDetails />} />
+
             <Route path="comparison" element={<Comparison />} />
             <Route path="methodology" element={<Methodology />} />
             <Route path="signup" element={<Signup />} />

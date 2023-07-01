@@ -1,8 +1,6 @@
-const fetchScholars = () => {
-    fetch('dummyData/scholars.json')
-    .then(res => res.json())
-    .then(data => data )
-    .catch(err => err )
-}
+const fetchScholars = async () => {
+
+    const url = ''
+};
 
 export default fetchScholars;

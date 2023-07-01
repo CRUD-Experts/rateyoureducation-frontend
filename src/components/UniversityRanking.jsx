@@ -6,6 +6,7 @@ import { StackedImages } from "./Aesthetics/StackedImages";
 import { Button } from "./Elements/Buttons/Button";
 import { useEffect, useState } from "react";
 import { IndiRankLoader } from "./loaders/IndiRankLoader";
+import { FetchError } from "./Errors/Errors";
 // import { Link } from "react-router-dom";
 
 const UniversityRanking = ({
@@ -15,45 +16,45 @@ const UniversityRanking = ({
 	animate = true,
 }) => {
 	const [error, setError] = useState(false);
-	const [errorMsg, setErrorMsg] = useState("");
-	const [isLoaded, setIsLoaded] = useState(false);
+	const [isLoading, setIsLoading] = useState(true);
 	const [data, setData] = useState([]);
 
-	useEffect(() => {
+	async function getUniversities() {
+		setIsLoading(true)
 		const url =
 			"https://rateyoureducation-backend.up.railway.app/universities";
-		fetch(url)
-			.then((res) => {
-				if (!res.ok) {
-					setError(true);
-					// throw new Error("Something went wrong!");
-					console.log(res.status);
-					return res.status;
-				}
-				return res.json();
-			})
-			.then((data) => {
-				if (data > 400) {
-					setErrorMsg("Something went wrong!");
-					// throw new Error("Something went wrong!");
-					return;
-				}
-				setIsLoaded(true);
-				setData(data);
-				// console.log(data);
-			})
-			.catch((err) => {
-				setIsLoaded(true);
-				setError(true);
-				setErrorMsg(err);
-			});
-	}, [setIsLoaded, setData, setError]);
 
-	if (!isLoaded) {
+		try {
+			const response = await fetch(url, {
+				accept: "application/json",
+			});
+
+			setIsLoading(false);
+			if (!response.ok) {
+				setError(true);
+			} else {
+				const universities = await response.json();
+				console.log(universities);
+
+				setData(universities);
+			}
+			setIsLoading(false);
+		} catch (err) {
+			setError(true);
+			setIsLoading(false);
+		}
+	}
+	useEffect(() => {
+		getUniversities();
+	}, []);
+
+	if (isLoading) {
 		return <IndiRankLoader />;
 	}
 	return (
-		<Section animate={animate} className={'px-5'}>
+		<Section
+			animate={animate}
+			className={"px-5"}>
 			<SectionHeader
 				title="Top Universities"
 				subtitle="Welcome to our TOP UNIVERSITY section, where we showcase
@@ -67,31 +68,25 @@ const UniversityRanking = ({
 						Top {limit} Universities
 					</h3>
 					{error ? (
-						<div className="text-center p-5 bg-red-600/60 text-white rounded-md w-full max-w-lg">
-							<p>{errorMsg}</p>
-							<button className="px-4 py-2 bg-primary-700 hover:bg-primary-800 text-light-100 rounded-sm mt-3">
-								Try Again
-							</button>
-						</div>
+						<FetchError tryFunction={getUniversities} />
 					) : (
-						data.map((rank, index) => {
-							if (index + 1 > limit) return;
-							return (
-									<IndiRanks
-										id={rank._id}
-										rank={index + 1}
-										key={index}
-										name={rank.vfn_id}
-										logo={rank.logo}
-										scholars={rank.number_of_authors}
-										publications={rank.total_citations}
-										hIndex={rank.total_h_index}
-										loaded={isLoaded}
-									/>
-							);
-						})
+							data.map((rank, index) => {
+								if (index + 1 > limit) return;
+								return (
+										<IndiRanks
+											id={rank._id}
+											rank={index + 1}
+											key={index}
+											name={rank.vfn_id}
+											logo={rank.logo}
+											scholars={rank.number_of_authors}
+											publications={rank.total_citations}
+											hIndex={rank.total_h_index}
+										/>
+								);
+							}
+						)
 					)}
-
 					{hasButton && (
 						<Button
 							to="rankings/universities"

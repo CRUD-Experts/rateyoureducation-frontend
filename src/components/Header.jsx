@@ -36,7 +36,7 @@ export const Header = () => {
 					<Link
 						href="#"
 						className="light-btn text-sm">
-						Sign Up
+						Rate now
 					</Link>
 				</nav>
 			</div>

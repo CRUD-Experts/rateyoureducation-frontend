@@ -10,20 +10,33 @@ export const IndiRanks = ({
 	scholars,
 	publications,
 	hIndex,
+	loaded = false
 }) => {
+	if (!loaded) {
+		return (
+			<div className="animate-pulse flex items-center justify-between gap-5 bg-light-100 px-10 py-3 w-full border border-primary-200 rounded-xl mb-3 cursor-pointer hover:shadow-light-600">
+				<div className="flex gap-3 flex-col mobile:flex-row mobile:items-center items-start">
+					<div className="w-11 h-11 bg-primary-300 rounded-lg"></div>
+					<div>
+						<div className="w-40 h-4 bg-primary-300 mb-2 rounded-lg"></div>
+						<div className="w-20 h-3 bg-primary-300 rounded-lg"></div>
+					</div>
+				</div>
+			</div>
+		)}
 	return (
 		<motion.div
 			initial={{ opacity: 0, translateY: 50, scale: 0.9 }}
 			whileHover={{
-				scale: 1.02,
+				scale: 0.91,
 			}}
 			whileInView={{ opacity: 1, translateY: 0 }}
 			className="group flex items-center justify-between gap-5 bg-light-100 px-10 py-3 w-full border border-primary-200 rounded-xl mb-3 cursor-pointer hover:drop-shadow-xl hover:shadow-light-600">
 			<div className="flex gap-3 flex-col mobile:flex-row mobile:items-center items-start">
 				<p>#{rank}</p>
-				<div className="w-11 h-11 bg-primary-100 rounded-lg">
+				<div className="w-20 h-20 bg-primary-100 rounded-lg overflow-hidden">
 					<img
-						src={logo}
+						src={logo || "https://via.placeholder.com/150"}
 						alt={`Logo of ${name}`}
 						className="w-full h-full object-contain"
 					/>

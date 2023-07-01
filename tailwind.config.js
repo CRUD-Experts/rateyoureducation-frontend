@@ -63,6 +63,7 @@ export default {
       backgroundImage: {
         'aboutUs': "url('/src/assets/images/about-us.png')",
         'uniImage': "url('/src/assets/images/uni.png')",
+		'rankHeader': "url(/src/assets/images/rankings-header.png)",
       }
 		},
 	},

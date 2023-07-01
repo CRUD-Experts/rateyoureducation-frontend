@@ -1,0 +1,39 @@
+[
+    {
+      "_id": "64792d7a15d7cc07040443c8",
+      "vfn_id": "knust.edu.gh",
+      "number_of_authors": 664,
+      "total_citations": 442298,
+      "total_h_index": 6292,
+      "total_i10_index": 7797,
+      "total_publications": 11379,
+      "desc": "Kwame Nkrumah University of Science and Technology, Kumasi"
+    },
+    {
+      "_id": "64792d7b15d7cc07040443ff",
+      "vfn_id": "uds.edu.gh",
+      "number_of_authors": 213,
+      "total_citations": 76679,
+      "total_h_index": 1551,
+      "total_i10_index": 1626,
+      "total_publications": 3206
+    },
+    {
+      "_id": "64792d7a15d7cc0704044383",
+      "vfn_id": "st.knust.edu.gh",
+      "number_of_authors": 69,
+      "total_citations": 15177,
+      "total_h_index": 312,
+      "total_i10_index": 288,
+      "total_publications": 707
+    },
+    {
+      "_id": "64792d7b15d7cc070404446a",
+      "vfn_id": "idl.knust.edu.gh",
+      "number_of_authors": 1,
+      "total_citations": 61,
+      "total_h_index": 2,
+      "total_i10_index": 1,
+      "total_publications": 20
+    }
+  ]

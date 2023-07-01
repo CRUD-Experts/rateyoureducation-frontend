@@ -76,15 +76,17 @@ export const TopNav = () => {
 								initial={{ opacity: 0, y: -20 }}
 								animate={{ opacity: 1, y: 0 }}
 								exit={{ opacity: 0, y: -20 }}
-								className=" flex flex-col gap-3 absolute left-0 w-max h-24 bg-light-100 px-4 py-5 rounded-sm shadow-md">
+								className=" flex flex-col gap-5 absolute right-0  w-max bg-light-100 px-4 py-6 rounded-sm shadow-2xl">
 								<Link
-									to="/uni-rankings"
+									to="rankings/universities"
+									onClick={closeNav}
 									className={inactiveClass}>
 									University Rankings
 								</Link>
 
 								<Link
-									to="/uni-rankings"
+									to="rankings/scholars"
+									onClick={closeNav}
 									className={inactiveClass}>
 									Scholar Rankings
 								</Link>

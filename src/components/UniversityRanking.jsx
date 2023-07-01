@@ -1,16 +1,55 @@
+/* eslint-disable react/prop-types */
 import Section from "./Elements/Section";
 import SectionHeader from "./Headers/SectionHeader";
 import { IndiRanks } from "./IndiRanks";
-import { universities } from "../DummyData";
+// import { universities } from "../DummyData";
 import { StackedImages } from "./Aesthetics/StackedImages";
-// import { OutlineButton } from "./Elements/Buttons/OutlineButton";
 import { Button } from "./Elements/Buttons/Button";
+import { useEffect, useState } from "react";
 
-const UniversityRanking = () => {
-	const data = universities;
+const UniversityRanking = ({
+	limit = 5,
+	hasButton = true,
+	hasImages = true,
+}) => {
+	// const data = universities;
+	const [error, setError] = useState(false);
+	const [errorMsg, setErrorMsg] = useState('');
+	const [isLoaded, setIsLoaded] = useState(false);
+	const [data, setData] = useState([]);
+
+
+	useEffect(() => {
+		const url = 'https://rateyoureducation-backend.up.railway.app/universities';
+		fetch(url)
+			.then((res) => {
+				if(!res.ok) {
+					setError(true);
+					setErrorMsg('Something went wrong!');
+					throw new Error('Something went wrong!');
+				}
+				return res.json()
+			})
+			.then(data => {
+				setIsLoaded(true);
+				setData(data);
+				// console.log(data);
+			}
+			)
+			.catch((err) => {
+				setIsLoaded(true);
+				setError(true);
+				setErrorMsg(err);
+			}
+			);
+	}, [
+		setIsLoaded,
+		setData,
+		setError,
+	]);
 
 	return (
-		<Section className="p-5">
+		<Section className="">
 			<SectionHeader
 				title="Top Universities"
 				subtitle="Welcome to our TOP UNIVERSITY section, where we showcase
@@ -20,29 +59,53 @@ const UniversityRanking = () => {
 			/>
 			<div className="flex tablet:flex-row flex-col-reverse gap-10 mt-14 items-center">
 				<div className="w-full">
-					<h3 className="mb-2 font-semibold">Top 5 Universities</h3>
-					{data.map((rank, index) => (
-						<IndiRanks
-							rank={index + 1}
-							key={index}
-							name={rank.name}
-							logo={rank.logo}
-							scholars={rank.scholars}
-							publications={rank.publications}
-							hIndex={rank.hIndex}
-						/>
-					))}
-					<Button   className="ml-8" >
-						View All
-					</Button>
-					
-				</div>
+					<h3 className="mb-2 font-semibold">
+						Top {limit} Universities
+					</h3>
+					{error ? (
+						<div className="text-center p-5 bg-red-600/60 text-white rounded-md">
+							<p>
+								{errorMsg}
+							</p>
+							<button className="px-4 py-2 bg-primary-700 hover:bg-primary-800 text-light-100 rounded-sm mt-3" >
+								Try Again
+							</button>
 
-				<StackedImages
-					imgOne="https://images.unsplash.com/20/cambridge.JPG?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1147&q=80"
-					imgTwo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/University_Library_complex.JPG/1280px-University_Library_complex.JPG"
-					imgThree="https://images.unsplash.com/photo-1609864031983-4c77af00b8d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-				/>
+
+						</div>
+					) : (
+						data.map((rank, index) => {
+							if (index + 1 > limit) return;
+							return (
+								<IndiRanks
+									rank={index + 1}
+									key={index}
+									name={rank.vfn_id}
+									logo={rank.logo}
+									scholars={rank.number_of_authors}
+									publications={rank.total_citations}
+									hIndex={rank.total_h_index}
+									loaded={isLoaded}
+								/>
+							);
+						})
+					)}
+
+					{hasButton && (
+						<Button
+							to="/uni-rankings"
+							className="ml-8">
+							View All
+						</Button>
+					)}
+				</div>
+				{hasImages && (
+					<StackedImages
+						imgOne="https://images.unsplash.com/20/cambridge.JPG?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1147&q=80"
+						imgTwo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/University_Library_complex.JPG/1280px-University_Library_complex.JPG"
+						imgThree="https://images.unsplash.com/photo-1609864031983-4c77af00b8d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+					/>
+				)}
 			</div>
 		</Section>
 	);

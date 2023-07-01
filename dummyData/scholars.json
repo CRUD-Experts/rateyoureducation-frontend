@@ -1,0 +1,1410 @@
+[
+    {
+      "_id": "6419f31bacb82c1ae1149c8f",
+      "author_id": "rf1SiEkAAAAJ",
+      "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+      "indexes": {
+        "Citations": 247,
+        "h-index": 10,
+        "i10-index": 10
+      },
+      "name": "Dominic Yellezuome",
+      "specialty": [
+        "Biomass energy",
+        "Anaerobic digestion"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=rf1SiEkAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh",
+      "last_update": 1681161932.27007,
+      "citations": [
+        {
+          "title_of_paper": "Anaerobic co-digestion of corn stover and chicken manure using continuous stirred tank reactor: The effect of biochar addition and urea pretreatment",
+          "year_of_publication": "2021",
+          "cited_by": 46,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:9yKSN-GCB0IC"
+        },
+        {
+          "title_of_paper": "Mitigation of ammonia inhibition in anaerobic digestion of nitrogen-rich substrates for biogas production by ammonia stripping: A review",
+          "year_of_publication": "2022",
+          "cited_by": 35,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:W7OEmFMy1HYC"
+        },
+        {
+          "title_of_paper": "Effects of cotton straw-derived biochar under different pyrolysis conditions on Pb (II) adsorption properties in aqueous solutions",
+          "year_of_publication": "2021",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Effects of co-digestion of food waste, corn straw and chicken manure in two-stage anaerobic digestion on trace element bioavailability and microbial community composition",
+          "year_of_publication": "2022",
+          "cited_by": 22,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:qjMakFHDy7sC"
+        },
+        {
+          "title_of_paper": "Catalytic pyrolysis of biomass over Fe-modified hierarchical ZSM-5: Insights into mono-aromatics selectivity and pyrolysis behavior using Py-GC/MS and TG-FTIR",
+          "year_of_publication": "2021",
+          "cited_by": 21,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:2osOgNQ5qMEC"
+        },
+        {
+          "title_of_paper": "Deactivation mechanism and regeneration effect of bi-metallic Fe-Ni/ZSM-5 catalyst during biomass catalytic pyrolysis",
+          "year_of_publication": "2022",
+          "cited_by": 19,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:d1gkVwhDpl0C"
+        },
+        {
+          "title_of_paper": "Investigation of product selectivity and kinetics of poplar sawdust catalytic pyrolysis over bi-metallic Iron-Nickel/ZSM-5 catalyst",
+          "year_of_publication": "2022",
+          "cited_by": 14,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:u-x6o8ySG0sC"
+        },
+        {
+          "title_of_paper": "Thermal properties and product distribution from pyrolysis at high heating rate of Naomaohu coal",
+          "year_of_publication": "2021",
+          "cited_by": 14,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:Y0pCki6q_DkC"
+        },
+        {
+          "title_of_paper": "Understanding pyrolysis mechanisms of pinewood sawdust and sugarcane bagasse from kinetics and thermodynamics",
+          "year_of_publication": "2022",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:zYLM7Y9cAGgC"
+        },
+        {
+          "title_of_paper": "Upgrading of biomass-derived bio-oil via catalytic hydrogenation with Rh and Pd catalysts",
+          "year_of_publication": "2022",
+          "cited_by": 10,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:IjCSPb-OGe4C"
+        },
+        {
+          "title_of_paper": "Exploring kinetic mechanisms of biomass pyrolysis using generalized logistic mixture model",
+          "year_of_publication": "2022",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:eQOLeE2rZwMC"
+        },
+        {
+          "title_of_paper": "Effect of density on physicochemical and thermal conversion characteristic of Naomaohu coal",
+          "year_of_publication": "2021",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:u5HHmVD_uO8C"
+        },
+        {
+          "title_of_paper": "Insight into kinetic and Thermodynamic Analysis methods for lignocellulosic biomass pyrolysis",
+          "year_of_publication": "2023",
+          "cited_by": 4,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:Se3iqnhoufwC"
+        },
+        {
+          "title_of_paper": "Catalytic pyrolysis of bamboo residue and its extracted three main components over copper modified ZSM-5 for the production of aromatic hydrocarbons",
+          "year_of_publication": "2022",
+          "cited_by": 3,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:ufrVoPGSRksC"
+        },
+        {
+          "title_of_paper": "Non-isothermal pyrolysis of xylan, cellulose and lignin: A hybrid simulated annealing algorithm and pattern search method to regulate distributed activation energies",
+          "year_of_publication": "2022",
+          "cited_by": 2,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:WF5omc3nYNoC"
+        },
+        {
+          "title_of_paper": "Exploring kinetic and thermodynamic mechanisms of switchgrass pyrolysis using iterative linear integral isoconversional method and master plots approach",
+          "year_of_publication": "2023",
+          "cited_by": 1,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:hqOjcs7Dif8C"
+        },
+        {
+          "title_of_paper": "Enhancing bio-aromatics yield in bio-oil from catalytic fast pyrolysis of bamboo residues over bi-metallic catalyst and reaction mechanism based on quantum computing",
+          "year_of_publication": "2023",
+          "cited_by": 1,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:roLk4NBRz8UC"
+        },
+        {
+          "title_of_paper": "Integration of two-stage anaerobic digestion process with in situ biogas upgrading",
+          "year_of_publication": "2022",
+          "cited_by": 1,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:UebtZRa9Y70C"
+        },
+        {
+          "title_of_paper": "Insight into derivative Weibull mixture model in describing simulated distributed activation energy model and distillers dried grains with solubles pyrolysis processes",
+          "year_of_publication": "2022",
+          "cited_by": 1,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:_FxGoFyzp5QC"
+        },
+        {
+          "title_of_paper": "Detecting generator faults using both electrical and mechanical signals",
+          "year_of_publication": "2019",
+          "cited_by": 1,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=rf1SiEkAAAAJ&citation_for_view=rf1SiEkAAAAJ:UeHWp8X0CEIC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f31dacb82c1ae1149df0",
+      "author_id": "lkkgazAAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=lkkgazAAAAAJ&citpid=5",
+      "indexes": {
+        "Citations": 313,
+        "h-index": 10,
+        "i10-index": 10
+      },
+      "name": "Richard Amorin",
+      "specialty": [
+        "Drilling Optimisation",
+        "HSE",
+        "Natural Gas Utilisation"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=lkkgazAAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh - Homepage",
+      "last_update": 1681161946.749538,
+      "citations": [
+        {
+          "title_of_paper": "Assessment of the quality of bottled/sachet water in the Tarkwa-Nsuaem municipality (TM) of Ghana",
+          "year_of_publication": "2011",
+          "cited_by": 59,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:YsMSGLbcyi4C"
+        },
+        {
+          "title_of_paper": "Effects of drilling fluid exposure to oil and gas workers presented with major areas of exposure and exposure indicators",
+          "year_of_publication": "2010",
+          "cited_by": 44,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:5nxA0vEk-isC"
+        },
+        {
+          "title_of_paper": "Application of Minimum Curvature method to Well-path Calculations",
+          "year_of_publication": "2009",
+          "cited_by": 40,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:ufrVoPGSRksC"
+        },
+        {
+          "title_of_paper": "Gas hydrate formation phase boundary behaviour of synthetic natural gas system of the keta basin of Ghana",
+          "year_of_publication": "2017",
+          "cited_by": 27,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:Y0pCki6q_DkC"
+        },
+        {
+          "title_of_paper": "Investigating the potential use of waste vegetable oils to produce synthetic base fluids for drilling mud formulation",
+          "year_of_publication": "2018",
+          "cited_by": 16,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:roLk4NBRz8UC"
+        },
+        {
+          "title_of_paper": "Enhancing the stability of local vegetable oils (esters) for high geothermal drilling applications",
+          "year_of_publication": "2015",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:0EnyYjriUFMC"
+        },
+        {
+          "title_of_paper": "Economic viability of the use of local pseudo-oils for drilling fluid formulation",
+          "year_of_publication": "2015",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:u5HHmVD_uO8C"
+        },
+        {
+          "title_of_paper": "Major Challenges in Ghana’s Oil and Gas Discovery: Is Ghana Ready",
+          "year_of_publication": "2013",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:W7OEmFMy1HYC"
+        },
+        {
+          "title_of_paper": "Experimental study on the effects of cement contamination in a water based mud",
+          "year_of_publication": "2019",
+          "cited_by": 12,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:qjMakFHDy7sC"
+        },
+        {
+          "title_of_paper": "The use of liquefied petroleum gas (LPG) as a fuel for commercial vehicles in Ghana: A case study at tema community 1",
+          "year_of_publication": "2018",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:_FxGoFyzp5QC"
+        },
+        {
+          "title_of_paper": "The Value Chain of Ghana’s Major Offshore Oil and Gas Production From 2010 – 2021",
+          "year_of_publication": "2022",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:aqlVkmm33-oC"
+        },
+        {
+          "title_of_paper": "The Ghana liquefied petroleum gas promotion programme: opportunities, challenges and the way forward",
+          "year_of_publication": "2018",
+          "cited_by": 7,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:Se3iqnhoufwC"
+        },
+        {
+          "title_of_paper": "Well spacing for horizontal wells",
+          "year_of_publication": "2011",
+          "cited_by": 7,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:WF5omc3nYNoC"
+        },
+        {
+          "title_of_paper": "Local Plant Seed Oils (Esters); The Frontier of Geothermal Drilling Applications–A Review",
+          "year_of_publication": "2017",
+          "cited_by": 6,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Assessment of the Safety Handling of Domestic Liquified Petroleum Gas (LPG) Cylinders using a Suburb of Afienya Township as a Case Study",
+          "year_of_publication": "2022",
+          "cited_by": 5,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:4TOpqqG69KYC"
+        },
+        {
+          "title_of_paper": "Evaluation of the Effect of Water Hyacinth Ash (WHA) as an Additive on Local Portland Cement for Oil Well Cementing",
+          "year_of_publication": "2022",
+          "cited_by": 5,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:4DMP91E08xMC"
+        },
+        {
+          "title_of_paper": "Development of a mathematical model in python to design a drillstring with options for a given well trajectory",
+          "year_of_publication": "",
+          "cited_by": 5,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:mVmsd5A6BfQC"
+        },
+        {
+          "title_of_paper": "Evaluation of blended lime-stabilised spent synthetic-based drilling mud and cement for oil well cementing operations",
+          "year_of_publication": "2019",
+          "cited_by": 4,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:d1gkVwhDpl0C"
+        },
+        {
+          "title_of_paper": "Advances in the Possibility of Utilising Construction Grade Cements (CGCs) for Oil Well Cementing",
+          "year_of_publication": "2017",
+          "cited_by": 4,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:UebtZRa9Y70C"
+        },
+        {
+          "title_of_paper": "ENHANCING THE PERFORMANCE OF LOCAL CEMENT AS AN ALTERNATIVE FOR OIL AND GAS WELL CEMENTING OPERATION.",
+          "year_of_publication": "2018",
+          "cited_by": 3,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=lkkgazAAAAAJ&citation_for_view=lkkgazAAAAAJ:eQOLeE2rZwMC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f311acb82c1ae1149659",
+      "author_id": "ivrmBEcAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ivrmBEcAAAAJ&citpid=3",
+      "indexes": {
+        "Citations": 666,
+        "h-index": 15,
+        "i10-index": 19
+      },
+      "name": "Eric Stemn",
+      "specialty": [
+        "Occupational Health and Safety",
+        "GIS & RS Applications in Environmental Studies",
+        "Waste Management"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=ivrmBEcAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh - Homepage",
+      "last_update": 1681161908.04411,
+      "citations": [
+        {
+          "title_of_paper": "Examining the relationship between safety culture maturity and safety performance of the mining industry",
+          "year_of_publication": "2019",
+          "cited_by": 129,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:IjCSPb-OGe4C"
+        },
+        {
+          "title_of_paper": "Failure to learn from safety incidents: Status, challenges and opportunities",
+          "year_of_publication": "2018",
+          "cited_by": 85,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:eQOLeE2rZwMC"
+        },
+        {
+          "title_of_paper": "Multi-criteria GIS-based siting of transfer station for municipal solid waste: The case of Kumasi Metropolitan Area, Ghana",
+          "year_of_publication": "2016",
+          "cited_by": 54,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Analysis of injuries in the Ghanaian mining industry and priority areas for research",
+          "year_of_publication": "2019",
+          "cited_by": 53,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:ufrVoPGSRksC"
+        },
+        {
+          "title_of_paper": "Focusing on coal workers’ lung diseases: a comparative analysis of China, Australia, and the United States",
+          "year_of_publication": "2018",
+          "cited_by": 47,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:roLk4NBRz8UC"
+        },
+        {
+          "title_of_paper": "Mutualism, commensalism or parasitism? Perspectives on tailings trade between large-scale and artisanal and small-scale gold mining in Ghana",
+          "year_of_publication": "2018",
+          "cited_by": 29,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:qjMakFHDy7sC"
+        },
+        {
+          "title_of_paper": "Human health risk via soil ingestion of potentially toxic elements and remediation potential of native plants near an abandoned mine spoil in Ghana",
+          "year_of_publication": "2021",
+          "cited_by": 22,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:qxL8FJ1GzNcC"
+        },
+        {
+          "title_of_paper": "Interactions between organisational roles and environmental hazards: the case of safety in the Chinese coal industry",
+          "year_of_publication": "2019",
+          "cited_by": 21,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:0EnyYjriUFMC"
+        },
+        {
+          "title_of_paper": "Hazardous waste landfill site selection in Western Ghana: An integration of multi-criteria decision analysis and geographic information system",
+          "year_of_publication": "2019",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:LkGwnXOMwfcC"
+        },
+        {
+          "title_of_paper": "Incident investigators’ perspectives of incident investigations conducted in the Ghanaian mining industry",
+          "year_of_publication": "2019",
+          "cited_by": 19,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:_FxGoFyzp5QC"
+        },
+        {
+          "title_of_paper": "Modelling of land surface temperature changes as determinant of urban heat island and risk of heat-related conditions in the Wassa West Mining Area of Ghana",
+          "year_of_publication": "2020",
+          "cited_by": 18,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:Zph67rFs4hoC"
+        },
+        {
+          "title_of_paper": "Effect of urban growth on urban thermal environment: a case study of Sekondi-Takoradi Metropolis of Ghana",
+          "year_of_publication": "2015",
+          "cited_by": 18,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:d1gkVwhDpl0C"
+        },
+        {
+          "title_of_paper": "Analysis of artisanal and small-scale gold mining accidents and fatalities in Ghana",
+          "year_of_publication": "2021",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:aqlVkmm33-oC"
+        },
+        {
+          "title_of_paper": "Siting a centralised processing centre for artisanal and small-scale mining–A spatial multi-criteria approach",
+          "year_of_publication": "2018",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:zYLM7Y9cAGgC"
+        },
+        {
+          "title_of_paper": "Assessment of urban expansion in the Sekondi-Takoradi Metropolis of Ghana using remote-sensing and GIS approach",
+          "year_of_publication": "2014",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:5nxA0vEk-isC"
+        },
+        {
+          "title_of_paper": "Investigating the maturity of incident investigations of the Ghanaian mining industry and its effect on safety performance",
+          "year_of_publication": "2019",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:2osOgNQ5qMEC"
+        },
+        {
+          "title_of_paper": "Modelling of malaria risk areas in Ghana by using environmental and anthropogenic variables–A spatial multi-criteria approach",
+          "year_of_publication": "2015",
+          "cited_by": 12,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:WF5omc3nYNoC"
+        },
+        {
+          "title_of_paper": "Spatial Analysis of Artisanal and Small-Scale Mining in the Tarkwa-Nsuaem Municipality of Ghana",
+          "year_of_publication": "2020",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:ULOm3_A8WrAC"
+        },
+        {
+          "title_of_paper": "Systemic constraints to effective learning from incidents in the Ghanaian mining industry: A correspondence analysis and AcciMap approach",
+          "year_of_publication": "2020",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:MXK_kJrjxJIC"
+        },
+        {
+          "title_of_paper": "Municipal solid waste landfill site selection in the Sekondi-Takoradi metropolis of Ghana using fuzzy logic in a GIS environment",
+          "year_of_publication": "2015",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ivrmBEcAAAAJ&citation_for_view=ivrmBEcAAAAJ:8k81kl-MbHgC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f316acb82c1ae1149956",
+      "author_id": "5yOqH18AAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=5yOqH18AAAAJ&citpid=6",
+      "indexes": {
+        "Citations": 1217,
+        "h-index": 19,
+        "i10-index": 37
+      },
+      "name": "Yao Yevenyo Ziggah (PhD)",
+      "specialty": [
+        "Geomatic Engineering",
+        "Geodesy",
+        "Geosciences",
+        "Machine Learning/AI"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=5yOqH18AAAAJ",
+      "verified_at": "Verified email at umat.edu.gh - Homepage",
+      "last_update": 1681161896.927682,
+      "citations": [
+        {
+          "title_of_paper": "An Improved Morphological Algorithm for Filtering Airborne LiDAR Point Cloud Based on Multi-Level Kriging Interpolation",
+          "year_of_publication": "2016",
+          "cited_by": 89,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:ufrVoPGSRksC"
+        },
+        {
+          "title_of_paper": "Road centerline extraction from airborne LiDAR point cloud based on hierarchical fusion and optimization",
+          "year_of_publication": "2016",
+          "cited_by": 64,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:UebtZRa9Y70C"
+        },
+        {
+          "title_of_paper": "Novel approach to predicting blast-induced ground vibration using Gaussian process regression",
+          "year_of_publication": "2020",
+          "cited_by": 57,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:TQgYirikUcIC"
+        },
+        {
+          "title_of_paper": "Hybrid ensemble intelligent model based on wavelet transform, swarm intelligence and artificial neural network for electricity demand forecasting",
+          "year_of_publication": "2021",
+          "cited_by": 47,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:35N4QoGY0k4C"
+        },
+        {
+          "title_of_paper": "Multivariate Adaptive Regression Splines (MARS) approach to blast-induced ground vibration prediction",
+          "year_of_publication": "2020",
+          "cited_by": 44,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:RHpTSmoSYBkC"
+        },
+        {
+          "title_of_paper": "A novel artificial intelligent model for predicting air overpressure using brain inspired emotional neural network",
+          "year_of_publication": "2020",
+          "cited_by": 39,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:GnPB-g6toBAC"
+        },
+        {
+          "title_of_paper": "Capability of self-organizing map neural network in geophysical log data classification: Case study from the CCSD-MH",
+          "year_of_publication": "2015",
+          "cited_by": 39,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:Y0pCki6q_DkC"
+        },
+        {
+          "title_of_paper": "Automatic DTM extraction from airborne LiDAR based on expectation-maximization",
+          "year_of_publication": "2019",
+          "cited_by": 37,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:HDshCWvjkbEC"
+        },
+        {
+          "title_of_paper": "Generalized regression and feed forward back propagation neural networks in modelling flammability characteristics of polymethyl methacrylate (PMMA)",
+          "year_of_publication": "2018",
+          "cited_by": 35,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:hC7cP41nSMkC"
+        },
+        {
+          "title_of_paper": "Principal component analysis (PCA) based hybrid models for the accurate estimation of reservoir water saturation",
+          "year_of_publication": "2020",
+          "cited_by": 32,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:RYcK_YlVTxYC"
+        },
+        {
+          "title_of_paper": "Capability of Artificial Neural Network for Forward Conversion of Geodetic Coordinates (φ,λ, h) to Cartesian (X,Y,Z) Coordinates",
+          "year_of_publication": "2016",
+          "cited_by": 31,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:hqOjcs7Dif8C"
+        },
+        {
+          "title_of_paper": "Assessing Vertical Accuracy of SRTM Ver. 4.1 and ASTER GDEM Ver. 2 using Differential GPS Measurements–case study in Ondo State, Nigeria",
+          "year_of_publication": "2013",
+          "cited_by": 31,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:u5HHmVD_uO8C"
+        },
+        {
+          "title_of_paper": "A novel hybrid technique of integrating gradient-boosted machine and clustering algorithms for lithology classification",
+          "year_of_publication": "2020",
+          "cited_by": 29,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:blknAaTinKkC"
+        },
+        {
+          "title_of_paper": "Coordinate Transformation between Global and Local Data Based on Artificial Neural Network with K-fold Cross-validation in Ghana",
+          "year_of_publication": "2019",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:iH-uZ7U-co4C"
+        },
+        {
+          "title_of_paper": "GPS Monitoring Landslide Deformation Signal Processing using Time-Series Model",
+          "year_of_publication": "2016",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:roLk4NBRz8UC"
+        },
+        {
+          "title_of_paper": "Application of dimensionality reduction technique to improve geophysical log data classification performance in crystalline rocks",
+          "year_of_publication": "2015",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Determination of GPS Coordinate Transformation Parameters of Geodetic Data between Reference Datums-A Case Study of Ghana Geodetic Reference Network",
+          "year_of_publication": "2013",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:IjCSPb-OGe4C"
+        },
+        {
+          "title_of_paper": "Performance Evaluation of Training Algorithms in Backpropagation Neural Network Approach for Blast-Induced Ground Vibration Prediction",
+          "year_of_publication": "2020",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:ns9cj8rnVeAC"
+        },
+        {
+          "title_of_paper": "Performance Evaluation of the Earth Gravitational Model 2008 (EGM2008) - A Case Study",
+          "year_of_publication": "2017",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:aqlVkmm33-oC"
+        },
+        {
+          "title_of_paper": "Short-Term Electric Power Forecasting Using Dual-Stage Hierarchical Wavelet- Particle Swarm Optimization- Adaptive Neuro-Fuzzy Inference System PSO-ANFIS Approach Based On …",
+          "year_of_publication": "2018",
+          "cited_by": 19,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=5yOqH18AAAAJ&citation_for_view=5yOqH18AAAAJ:hFOr9nPyWt4C"
+        }
+      ]
+    },
+    {
+      "_id": "6419f313acb82c1ae11497b2",
+      "author_id": "qQP7CDUAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=qQP7CDUAAAAJ&citpid=5",
+      "indexes": {
+        "Citations": 5882,
+        "h-index": 26,
+        "i10-index": 97
+      },
+      "name": "Asep Saepul Hamdi, M.Pd.,M.E",
+      "specialty": [
+        "metode penelitian"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=qQP7CDUAAAAJ",
+      "verified_at": "Verified email at stebipui.ac.id",
+      "last_update": 1681161921.331226,
+      "citations": [
+        {
+          "title_of_paper": "Metode penelitian kuantitatif aplikasi dalam pendidikan",
+          "year_of_publication": "2015",
+          "cited_by": 1656,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:zYLM7Y9cAGgC"
+        },
+        {
+          "title_of_paper": "Analisis faktor penyebab rendahnya kemampuan literasi sains peserta didik",
+          "year_of_publication": "2020",
+          "cited_by": 171,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:SjpY821HeKUC"
+        },
+        {
+          "title_of_paper": "Pengembangan Media Pembelajaran Berbasis Android pada Masa Pandemi Covid-19 untuk Meningkatkan Literasi Sains Peserta Didik",
+          "year_of_publication": "2020",
+          "cited_by": 139,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:pCwnR5It0icC"
+        },
+        {
+          "title_of_paper": "Perancangan sistem informasi penjualan barang handmade berbasis website dengan metode waterfall",
+          "year_of_publication": "2017",
+          "cited_by": 137,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:O19RtbnGdcYC"
+        },
+        {
+          "title_of_paper": "Pengaruh budaya organisasi terhadap kinerja pegawai pada dinas pendidikan provinsi sulawesi selatan",
+          "year_of_publication": "2017",
+          "cited_by": 136,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:jV6U92sR5-kC"
+        },
+        {
+          "title_of_paper": "Penerapan google classroom dalam pembelajaran bahasa inggris kepada guru-guru bahasa inggris SMP di Subang",
+          "year_of_publication": "2019",
+          "cited_by": 100,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:qW5lpFxILYkC"
+        },
+        {
+          "title_of_paper": "Bahruddin.(2014)",
+          "year_of_publication": "2016",
+          "cited_by": 98,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:qjMakFHDy7sC"
+        },
+        {
+          "title_of_paper": "PhET: Simulasi interaktif dalam proses pembelajaran fisika",
+          "year_of_publication": "2020",
+          "cited_by": 82,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:zSm6S6IE-zAC"
+        },
+        {
+          "title_of_paper": "Metode penelitian kuantitatif aplikasi dalam pendidikan",
+          "year_of_publication": "2014",
+          "cited_by": 74,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:keypoDEWFbAC"
+        },
+        {
+          "title_of_paper": "Pengaruh Kemudahan Penggunaan, Kemanfaatan, Risiko, dan Kepercayaan terhadap Minat Menggunakan E-wallet pada Generasi Milenial Kota Semarang",
+          "year_of_publication": "2020",
+          "cited_by": 64,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:7YNYxFq1MKsC"
+        },
+        {
+          "title_of_paper": "Pemanfaatan Software Geogebra Dalam Pembelajaran Matematika",
+          "year_of_publication": "2019",
+          "cited_by": 58,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:NmoEDshWDT0C"
+        },
+        {
+          "title_of_paper": "Hubungan antara aktivitas belajar siswa dan hasil belajar pada mata pelajaran kimia kelas X SMA Negeri 5 Pontianak",
+          "year_of_publication": "2018",
+          "cited_by": 57,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:si2k7ziEMA4C"
+        },
+        {
+          "title_of_paper": "Kemampuan berpikir kritis dan penguasaan konsep dasar IPA peserta didik",
+          "year_of_publication": "2020",
+          "cited_by": 49,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:338VyjalEUUC"
+        },
+        {
+          "title_of_paper": "The effectiveness of role play in teaching speaking",
+          "year_of_publication": "2015",
+          "cited_by": 46,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:ejvZqoW-d-gC"
+        },
+        {
+          "title_of_paper": "Produksi Bioetanol Tongkol Jagung (Zea Mays) dari Hasil Proses Delignifikasi",
+          "year_of_publication": "2013",
+          "cited_by": 40,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:UyABD_aAzOsC"
+        },
+        {
+          "title_of_paper": "Buku Ajar Hukum Perkawinan",
+          "year_of_publication": "2016",
+          "cited_by": 39,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:PjYhiJO9yNAC"
+        },
+        {
+          "title_of_paper": "Pengaruh model pembelajaran berbasis masalah (PBM) berbantuan multimedia terhadap kemampuan berpikir kritis peserta didik kelas vii smp negeri 2 mataram ditinjau dari kemampuan …",
+          "year_of_publication": "2017",
+          "cited_by": 37,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:AyjP1I_lBDMC"
+        },
+        {
+          "title_of_paper": "Profil literasi sains dan keterampilan berpikir kritis pendidik IPA SMP",
+          "year_of_publication": "2019",
+          "cited_by": 36,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:D-uKCfLt7BgC"
+        },
+        {
+          "title_of_paper": "Pengembangan Instrumen Keterampilan Berpikir Kritis Pada Pembelajaran IPA di SMP",
+          "year_of_publication": "2020",
+          "cited_by": 33,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:mERG2dqBER4C"
+        },
+        {
+          "title_of_paper": "The influence of work facilities on employee performance at the regional financial management agency secretariat section of south Sulawesi province",
+          "year_of_publication": "2019",
+          "cited_by": 32,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qQP7CDUAAAAJ&citation_for_view=qQP7CDUAAAAJ:nYleseNfOU0C"
+        }
+      ]
+    },
+    {
+      "_id": "6419f310acb82c1ae11495a4",
+      "author_id": "VXYLIRQAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=VXYLIRQAAAAJ&citpid=1",
+      "indexes": {
+        "Citations": 513,
+        "h-index": 12,
+        "i10-index": 13
+      },
+      "name": "Anthony Ewusi",
+      "specialty": [
+        "Groundwater and Geophysics"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=VXYLIRQAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh",
+      "last_update": 1681161911.56045,
+      "citations": [
+        {
+          "title_of_paper": "Heavy metals contamination and human health risk assessment around Obuasi gold mine in Ghana",
+          "year_of_publication": "2016",
+          "cited_by": 125,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:5nxA0vEk-isC"
+        },
+        {
+          "title_of_paper": "Distribution of arsenic and heavy metals from mine tailings dams at Obuasi municipality of Ghana",
+          "year_of_publication": "2013",
+          "cited_by": 60,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:u5HHmVD_uO8C"
+        },
+        {
+          "title_of_paper": "Groundwater quality assessment for drinking and irrigation purposes in Obuasi municipality of Ghana, a preliminary study",
+          "year_of_publication": "2013",
+          "cited_by": 45,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Utility of the 2-D multi-electrode resistivity imaging technique in groundwater exploration in the Voltaian sedimentary basin, Northern Ghana",
+          "year_of_publication": "2009",
+          "cited_by": 33,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:WF5omc3nYNoC"
+        },
+        {
+          "title_of_paper": "Groundwater vulnerability assessment of the Tarkwa mining area using SINTACS approach and GIS",
+          "year_of_publication": "2017",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:0EnyYjriUFMC"
+        },
+        {
+          "title_of_paper": "Assessment of flood prone zones in the Tarkwa mining area of Ghana using a GIS-based approach",
+          "year_of_publication": "2021",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:ULOm3_A8WrAC"
+        },
+        {
+          "title_of_paper": "Groundwater exploration and management using Geophysics: Northern Region of Ghana",
+          "year_of_publication": "2006",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:MXK_kJrjxJIC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical evolution and assessment of groundwater quality in the Togo and Dahomeyan aquifers, Greater Accra Region, Ghana",
+          "year_of_publication": "2022",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:aqlVkmm33-oC"
+        },
+        {
+          "title_of_paper": "Mining and metal pollution: assessment of water quality in the Tarkwa mining area",
+          "year_of_publication": "2017",
+          "cited_by": 17,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:eQOLeE2rZwMC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical characteristics, sources and human health risk assessment of heavy metal dispersion in the mine pit water–surface water–groundwater system in the largest …",
+          "year_of_publication": "2022",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:4DMP91E08xMC"
+        },
+        {
+          "title_of_paper": "Calibration of shallow borehole drilling sites using the electrical resistivity imaging technique in the granitoids of Central Region, Ghana",
+          "year_of_publication": "2011",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:IjCSPb-OGe4C"
+        },
+        {
+          "title_of_paper": "Combined electrical resistivity imaging and electromagnetic survey for groundwater studies in the tarkwa mining area, Ghana",
+          "year_of_publication": "2019",
+          "cited_by": 12,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:hqOjcs7Dif8C"
+        },
+        {
+          "title_of_paper": "Modelling of total dissolved solids in water supply systems using regression and supervised machine learning approaches",
+          "year_of_publication": "2021",
+          "cited_by": 10,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:YOwf2qJgpHMC"
+        },
+        {
+          "title_of_paper": "Residual geochemical gold grade prediction using extreme gradient boosting",
+          "year_of_publication": "2022",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:qxL8FJ1GzNcC"
+        },
+        {
+          "title_of_paper": "Groundwater assessment for current and future water demand in the Daka Catchment, Northern Region, Ghana",
+          "year_of_publication": "2014",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:W7OEmFMy1HYC"
+        },
+        {
+          "title_of_paper": "Impact of data partitioning in groundwater level prediction using artificial neural network for multiple wells",
+          "year_of_publication": "2022",
+          "cited_by": 8,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:QIV2ME_5wuYC"
+        },
+        {
+          "title_of_paper": "Geotechnical and petrographic characterisation of the birimian granitoids in southern Ghana as an aggregates for sustainable road construction",
+          "year_of_publication": "2018",
+          "cited_by": 8,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:Y0pCki6q_DkC"
+        },
+        {
+          "title_of_paper": "Groundwater vulnerability assessment using DRASTIC index and GIS in Kumasi Metropolitan Assembly, Ghana",
+          "year_of_publication": "2016",
+          "cited_by": 8,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:9yKSN-GCB0IC"
+        },
+        {
+          "title_of_paper": "Hydrogeology of the basin Granitoids in the Sekyere South district of Ashanti region, Ghana",
+          "year_of_publication": "2018",
+          "cited_by": 7,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:UeHWp8X0CEIC"
+        },
+        {
+          "title_of_paper": "Modelling of arsenic concentration in multiple water sources: a comparison of different machine learning methods",
+          "year_of_publication": "2022",
+          "cited_by": 6,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=VXYLIRQAAAAJ&citation_for_view=VXYLIRQAAAAJ:Wp0gIr-vW9MC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f30cacb82c1ae11492ef",
+      "author_id": "vqnT8iEAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=vqnT8iEAAAAJ&citpid=5",
+      "indexes": {
+        "Citations": 616,
+        "h-index": 15,
+        "i10-index": 18
+      },
+      "name": "Emmanuel Daanoba SUNKARI, PhD",
+      "specialty": [
+        "Exploration Geochemistry/Groundwater Geochemistry/Ore Deposit Geology/Petrology/Medical Geology/Geostatistics"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=vqnT8iEAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh - Homepage",
+      "last_update": 1681161905.271222,
+      "citations": [
+        {
+          "title_of_paper": "Hydrogeochemical controls and human health risk assessment of groundwater fluoride and boron in the semi-arid North East region of Ghana",
+          "year_of_publication": "2019",
+          "cited_by": 77,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:_kc_bZDykSQC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical characterization and assessment of groundwater quality in the Kwahu-Bombouaka Group of the Voltaian Supergroup, Ghana",
+          "year_of_publication": "2020",
+          "cited_by": 49,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:mVmsd5A6BfQC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical appraisal of groundwater quality in the Ga west municipality, Ghana: implication for domestic and irrigation purposes",
+          "year_of_publication": "2019",
+          "cited_by": 48,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:3fE2CSJIrl8C"
+        },
+        {
+          "title_of_paper": "Geochemical evolution and tracing of groundwater salinization using different ionic ratios, multivariate statistical and geochemical modeling approaches in a typical semi-arid …",
+          "year_of_publication": "2021",
+          "cited_by": 41,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:isC4tDSrTZIC"
+        },
+        {
+          "title_of_paper": "Sources and routes of SARS-CoV-2 transmission in water systems in Africa: Are there any sustainable remedies?",
+          "year_of_publication": "2021",
+          "cited_by": 40,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:iH-uZ7U-co4C"
+        },
+        {
+          "title_of_paper": "Hydrochemistry with special reference to fluoride contamination in groundwater of the Bongo District, Upper East Region, Ghana",
+          "year_of_publication": "2019",
+          "cited_by": 39,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:YOwf2qJgpHMC"
+        },
+        {
+          "title_of_paper": "Comparative Analysis of Fluoride Concentrations in Groundwaters in Northern and Southern Ghana: Implications for the Contaminant Sources",
+          "year_of_publication": "2018",
+          "cited_by": 35,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:hqOjcs7Dif8C"
+        },
+        {
+          "title_of_paper": "Geochemical and multivariate statistical evaluation of trace elements in groundwater of Niğde Municipality, South-Central Turkey: implications for arsenic contamination and …",
+          "year_of_publication": "2021",
+          "cited_by": 27,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:bEWYMUwI8FkC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical and isotopic controls on the source of fluoride in groundwater within the Vea catchment, northeastern Ghana",
+          "year_of_publication": "2021",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:k_IJM867U9cC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical evolution and assessment of groundwater quality in the Togo and Dahomeyan aquifers, Greater Accra Region, Ghana",
+          "year_of_publication": "2022",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:O3NaXMp0MMsC"
+        },
+        {
+          "title_of_paper": "Appraisal of subsurface hydrogeochemical processes in a geologically heterogeneous semi-arid region of south India based on mass transfer and fuzzy comprehensive modeling",
+          "year_of_publication": "2021",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:j3f4tGmQtD8C"
+        },
+        {
+          "title_of_paper": "Spatial distribution and trace element geochemistry of laterites in Kunche area: Implication for gold exploration targets in NW, Ghana",
+          "year_of_publication": "2019",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:ULOm3_A8WrAC"
+        },
+        {
+          "title_of_paper": "Geochemistry, risk assessment, and Pb isotopic evidence for sources of heavy metals in stream sediments around the Ulukışla Basin, Niğde, southern Turkey",
+          "year_of_publication": "2020",
+          "cited_by": 17,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:_Qo2XoVZTnwC"
+        },
+        {
+          "title_of_paper": "Assessment of trace elements in selected bottled drinking water in Ghana: A case study of Accra metropolis",
+          "year_of_publication": "2016",
+          "cited_by": 17,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:eQOLeE2rZwMC"
+        },
+        {
+          "title_of_paper": "Assessment of the quality of water resources in the Upper East Region, Ghana: a review",
+          "year_of_publication": "2020",
+          "cited_by": 16,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:e5wmG9Sq2KIC"
+        },
+        {
+          "title_of_paper": "Hydrogeochemical characteristics, sources and human health risk assessment of heavy metal dispersion in the mine pit water–surface water–groundwater system in the largest …",
+          "year_of_publication": "2022",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:ns9cj8rnVeAC"
+        },
+        {
+          "title_of_paper": "Groundwater fluoride contamination in Ghana and the associated human health risks: Any sustainable mitigation measures to curtail the long term hazards?",
+          "year_of_publication": "2022",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:BqipwSGYUEgC"
+        },
+        {
+          "title_of_paper": "Geochemistry and petrography of beach sands along the western coast of Ghana: implications for provenance and tectonic settings",
+          "year_of_publication": "2020",
+          "cited_by": 14,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:aqlVkmm33-oC"
+        },
+        {
+          "title_of_paper": "Flood vulnerability assessment in the Accra Metropolis, southeastern Ghana",
+          "year_of_publication": "2021",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:NMxIlDl6LWMC"
+        },
+        {
+          "title_of_paper": "Laser Ablation Inductively Coupled Plasma Mass Spectrometry U-Pb Dating of Detrital and Magmatic Zircons of Glacial Diamictites and Pebbles in Late Ordovician Sediments of the …",
+          "year_of_publication": "2017",
+          "cited_by": 9,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vqnT8iEAAAAJ&citation_for_view=vqnT8iEAAAAJ:ufrVoPGSRksC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f30aacb82c1ae1149211",
+      "author_id": "P05587AAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=P05587AAAAAJ&citpid=5",
+      "indexes": {
+        "Citations": 1888,
+        "h-index": 14,
+        "i10-index": 20
+      },
+      "name": "Dr. Andy Yaw Kwarteng",
+      "specialty": [
+        "Remote Sensing and GIS",
+        "Geology",
+        "Climate change"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=P05587AAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh",
+      "date_created": "today",
+      "last_update": 1681161902.686376,
+      "citations": [
+        {
+          "title_of_paper": "Extracting spectral contrast in Landsat Thematic Mapper image data using selective principal component analysis",
+          "year_of_publication": "1989",
+          "cited_by": 896,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:IWHjjKOFINEC"
+        },
+        {
+          "title_of_paper": "Analysis of a 27‐year rainfall data (1977–2003) in the Sultanate of Oman",
+          "year_of_publication": "2009",
+          "cited_by": 250,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:d1gkVwhDpl0C"
+        },
+        {
+          "title_of_paper": "Change detection study of Kuwait City and environs using multi-temporal Landsat Thematic Mapper data",
+          "year_of_publication": "1998",
+          "cited_by": 190,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:u5HHmVD_uO8C"
+        },
+        {
+          "title_of_paper": "Multitemporal remote sensing data analysis of Kuwait's oil lakes",
+          "year_of_publication": "1998",
+          "cited_by": 47,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:u-x6o8ySG0sC"
+        },
+        {
+          "title_of_paper": "Formation of fresh ground-water lenses in northern Kuwait",
+          "year_of_publication": "2000",
+          "cited_by": 42,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:9yKSN-GCB0IC"
+        },
+        {
+          "title_of_paper": "Assessment of Kuwait's Al-Qurain landfill using remotely sensed data",
+          "year_of_publication": "2004",
+          "cited_by": 34,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Assessment of the effects of the Shatt Al-Arab’s altered discharge regimes on the ecology of the Northern Arabian Gulf",
+          "year_of_publication": "1997",
+          "cited_by": 33,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:2osOgNQ5qMEC"
+        },
+        {
+          "title_of_paper": "Remote sensing assessment of oil lakes and oil-polluted surfaces at the Greater Burgan oil field, Kuwait",
+          "year_of_publication": "1999",
+          "cited_by": 32,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:UeHWp8X0CEIC"
+        },
+        {
+          "title_of_paper": "Digital world meets urban planet–new prospects for evidence-based urban studies arising from joint exploitation of big earth data, information technology and shared knowledge",
+          "year_of_publication": "2020",
+          "cited_by": 27,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:pyW8ca7W8N0C"
+        },
+        {
+          "title_of_paper": "Satellite remote sensing applications in the State of Kuwait",
+          "year_of_publication": "1997",
+          "cited_by": 21,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:qjMakFHDy7sC"
+        },
+        {
+          "title_of_paper": "Barium variation in Acropora palmam and Montastrea annularis",
+          "year_of_publication": "1989",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:vV6vV6tmYwMC"
+        },
+        {
+          "title_of_paper": "Above-ground carbon dynamics in different arid urban green spaces",
+          "year_of_publication": "2018",
+          "cited_by": 18,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:cFHS6HbyZ2cC"
+        },
+        {
+          "title_of_paper": "USING LANDSAT THEMATIC MAPPER DATA TO DETECT AND MAP VEGETATION CHANGES Ж KUWAIT",
+          "year_of_publication": "1996",
+          "cited_by": 17,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:IjCSPb-OGe4C"
+        },
+        {
+          "title_of_paper": "Comparative analysis of thermal environments in New York City and Kuwait City",
+          "year_of_publication": "2005",
+          "cited_by": 16,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:W7OEmFMy1HYC"
+        },
+        {
+          "title_of_paper": "Remote sensing of urban environmental conditions",
+          "year_of_publication": "2010",
+          "cited_by": 14,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:WF5omc3nYNoC"
+        },
+        {
+          "title_of_paper": "Beach erosion along Al Batinah coast, Sultanate of Oman",
+          "year_of_publication": "2016",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:70eg2SAEIzsC"
+        },
+        {
+          "title_of_paper": "Use of SIR-C/X-SAR to monitor environmental damages of the 1991 Gulf War in Kuwait.",
+          "year_of_publication": "1997",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:RHpTSmoSYBkC"
+        },
+        {
+          "title_of_paper": "Using satellite data to monitor the 1991 Kuwait oil fires",
+          "year_of_publication": "1993",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:zYLM7Y9cAGgC"
+        },
+        {
+          "title_of_paper": "SAR‐based land cover classification of Kuwait",
+          "year_of_publication": "2008",
+          "cited_by": 10,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:ULOm3_A8WrAC"
+        },
+        {
+          "title_of_paper": "RADARSAT SAR data assessment of the oil lakes in the Greater Burgan oil field, Kuwait",
+          "year_of_publication": "1997",
+          "cited_by": 10,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=P05587AAAAAJ&citation_for_view=P05587AAAAAJ:R3hNpaxXUhUC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f30eacb82c1ae1149482",
+      "author_id": "tPONufgAAAAJ",
+      "image": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=tPONufgAAAAJ&citpid=1",
+      "indexes": {
+        "Citations": 520,
+        "h-index": 14,
+        "i10-index": 20
+      },
+      "name": "Jerry Samuel Yaw Kuma",
+      "specialty": [
+        "Environmental Hydrogeology",
+        "Water Resources Management",
+        "Mine Water",
+        "Geophysics and Geology"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=tPONufgAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh - Homepage",
+      "last_update": 1681161924.148985,
+      "citations": [
+        {
+          "title_of_paper": "Water quality trends in the Tarkwa gold-mining district, Ghana",
+          "year_of_publication": "2004",
+          "cited_by": 52,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:0EnyYjriUFMC"
+        },
+        {
+          "title_of_paper": "Utility of the 2-D multi-electrode resistivity imaging technique in groundwater exploration in the Voltaian sedimentary basin, Northern Ghana",
+          "year_of_publication": "2009",
+          "cited_by": 33,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:kNdYIx-mwKoC"
+        },
+        {
+          "title_of_paper": "Is groundwater in the Tarkwa gold mining district of Ghana potable?",
+          "year_of_publication": "2004",
+          "cited_by": 32,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:d1gkVwhDpl0C"
+        },
+        {
+          "title_of_paper": "Open pit mining and land use changes: an example from Bogosu‐Prestea area, South West Ghana",
+          "year_of_publication": "2009",
+          "cited_by": 28,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:7PzlFSSx8tAC"
+        },
+        {
+          "title_of_paper": "Pedological characteristics related to groundwater occurrence in the Tarkwa area, Ghana",
+          "year_of_publication": "2001",
+          "cited_by": 28,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:KlAtU1dfN6UC"
+        },
+        {
+          "title_of_paper": "Groundwater vulnerability assessment of the Tarkwa mining area using SINTACS approach and GIS",
+          "year_of_publication": "2017",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:IWHjjKOFINEC"
+        },
+        {
+          "title_of_paper": "Hydrogeological studies on the Tarkwa gold mining district, Ghana",
+          "year_of_publication": "2007",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:_kc_bZDykSQC"
+        },
+        {
+          "title_of_paper": "Water resources issues in Tarkwa municipality, southwest Ghana",
+          "year_of_publication": "2010",
+          "cited_by": 24,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:qjMakFHDy7sC"
+        },
+        {
+          "title_of_paper": "Land acquisition in Ghana; Dealing with the challenges and the way forward",
+          "year_of_publication": "2018",
+          "cited_by": 19,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:W7OEmFMy1HYC"
+        },
+        {
+          "title_of_paper": "Constrained gravity models and structural evolution of the Ashanti Belt, southwest Ghana",
+          "year_of_publication": "1998",
+          "cited_by": 17,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:Zph67rFs4hoC"
+        },
+        {
+          "title_of_paper": "Runoff estimates into the Weija reservoir and its implications for water supply to Accra, Ghana",
+          "year_of_publication": "2008",
+          "cited_by": 16,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:UebtZRa9Y70C"
+        },
+        {
+          "title_of_paper": "The need to regularise activities of illegal small-scale mining in Ghana: A focus on the Tarkwa-Dunkwa Highway",
+          "year_of_publication": "2010",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:3fE2CSJIrl8C"
+        },
+        {
+          "title_of_paper": "Conceptual ground water model and related environmental concerns in the Tarkwa area, Ghana",
+          "year_of_publication": "2000",
+          "cited_by": 15,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:UeHWp8X0CEIC"
+        },
+        {
+          "title_of_paper": "Expanding the hydrogeological base in mining EIA studies: A focus on Ghana",
+          "year_of_publication": "2002",
+          "cited_by": 14,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:ULOm3_A8WrAC"
+        },
+        {
+          "title_of_paper": "Numerical indices of the severity of acidic mine drainage: broadening the applicability of the gray acid mine drainage index",
+          "year_of_publication": "2011",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:WF5omc3nYNoC"
+        },
+        {
+          "title_of_paper": "Calibration of shallow borehole drilling sites using the electrical resistivity imaging technique in the granitoids of Central Region, Ghana",
+          "year_of_publication": "2011",
+          "cited_by": 13,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:Y0pCki6q_DkC"
+        },
+        {
+          "title_of_paper": "Combined electrical resistivity imaging and electromagnetic survey for groundwater studies in the tarkwa mining area, Ghana",
+          "year_of_publication": "2019",
+          "cited_by": 12,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:9ZlFYXVOiuMC"
+        },
+        {
+          "title_of_paper": "Properties of activated carbon prepared from coconut shells in Ghana",
+          "year_of_publication": "2012",
+          "cited_by": 11,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:ufrVoPGSRksC"
+        },
+        {
+          "title_of_paper": "Quality of Sachet water produced at Tarkwa, Ghana",
+          "year_of_publication": "2015",
+          "cited_by": 10,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:Wp0gIr-vW9MC"
+        },
+        {
+          "title_of_paper": "Hydrogeological framework for assessing the possible environmental impacts of large-scale gold mines",
+          "year_of_publication": "2002",
+          "cited_by": 10,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=tPONufgAAAAJ&citation_for_view=tPONufgAAAAJ:9yKSN-GCB0IC"
+        }
+      ]
+    },
+    {
+      "_id": "6419f315acb82c1ae1149898",
+      "author_id": "958rufEAAAAJ",
+      "image": "https://scholar.google.com/citations/images/avatar_scholar_128.png",
+      "indexes": {
+        "Citations": 1403,
+        "h-index": 19,
+        "i10-index": 28
+      },
+      "name": "Richard Amankwah",
+      "specialty": [
+        "Gold beneficiation",
+        "hydrometallurgy",
+        "environmental biotechnology",
+        "microwave processing",
+        "small scale mining"
+      ],
+      "url": "https://scholar.google.com/citations?hl=en&user=958rufEAAAAJ",
+      "verified_at": "Verified email at umat.edu.gh",
+      "last_update": 1681161913.928594,
+      "citations": [
+        {
+          "title_of_paper": "Strategies for sustainable development of the small-scale gold and diamond mining industry of Ghana",
+          "year_of_publication": "2003",
+          "cited_by": 217,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:7PzlFSSx8tAC"
+        },
+        {
+          "title_of_paper": "A two-stage bacterial pretreatment process for double refractory gold ores",
+          "year_of_publication": "2005",
+          "cited_by": 127,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:Tyk-4Ss8FVUC"
+        },
+        {
+          "title_of_paper": "Microwave roasting of a carbonaceous sulphidic gold concentrate",
+          "year_of_publication": "2009",
+          "cited_by": 106,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:9yKSN-GCB0IC"
+        },
+        {
+          "title_of_paper": "Microwave heating of gold ores for enhanced grindability and cyanide amenability",
+          "year_of_publication": "2011",
+          "cited_by": 89,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:-f6ydRqryjwC"
+        },
+        {
+          "title_of_paper": "Improved grindability and gold liberation by microwave pretreatment of a free-milling gold ore",
+          "year_of_publication": "2005",
+          "cited_by": 88,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:R3hNpaxXUhUC"
+        },
+        {
+          "title_of_paper": "Going for gold: transitional livelihoods in Northern Ghana",
+          "year_of_publication": "2013",
+          "cited_by": 70,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:dhFuZR0502QC"
+        },
+        {
+          "title_of_paper": "Land-grabbing, land-use transformation and social differentiation: Deconstructing “small-scale” in Ghana's recent gold rush",
+          "year_of_publication": "2018",
+          "cited_by": 69,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:KlAtU1dfN6UC"
+        },
+        {
+          "title_of_paper": "Gold recovery by microwave augmented ashing of waste activated carbon",
+          "year_of_publication": "2005",
+          "cited_by": 43,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:mB3voiENLucC"
+        },
+        {
+          "title_of_paper": "Reduction of preg-robbing by biomodified carbonaceous matter–A proposed mechanism",
+          "year_of_publication": "2013",
+          "cited_by": 38,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:hqOjcs7Dif8C"
+        },
+        {
+          "title_of_paper": "Mercury contamination of soil and water media from different illegal artisanal small-scale gold mining operations (galamsey)",
+          "year_of_publication": "2020",
+          "cited_by": 35,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:ns9cj8rnVeAC"
+        },
+        {
+          "title_of_paper": "The application of direct smelting of gold concentrates as an alternative to mercury amalgamation in small-scale gold mining operations in Ghana",
+          "year_of_publication": "2010",
+          "cited_by": 31,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:MXK_kJrjxJIC"
+        },
+        {
+          "title_of_paper": "Comminution environment and gold particle morphology: Effects on gravity concentration",
+          "year_of_publication": "2011",
+          "cited_by": 30,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:qxL8FJ1GzNcC"
+        },
+        {
+          "title_of_paper": "Microwave calcination and sintering of manganese carbonate ore",
+          "year_of_publication": "2005",
+          "cited_by": 28,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:d1gkVwhDpl0C"
+        },
+        {
+          "title_of_paper": "Cyanidation of refractory gold ores: A review",
+          "year_of_publication": "2014",
+          "cited_by": 27,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:ULOm3_A8WrAC"
+        },
+        {
+          "title_of_paper": "Myths and superstition in the small scale gold mining industry of Ghana",
+          "year_of_publication": "2011",
+          "cited_by": 26,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:hC7cP41nSMkC"
+        },
+        {
+          "title_of_paper": "Microwave roasting of flash flotation concentrate containing pyrite, arsenopyrite and carbonaceous matter",
+          "year_of_publication": "2020",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:k_IJM867U9cC"
+        },
+        {
+          "title_of_paper": "Women in artisanal mining: Reflections on the impacts of a ban on operations in Ghana",
+          "year_of_publication": "2020",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:M3NEmzRMIkIC"
+        },
+        {
+          "title_of_paper": "The identification and testing of a method for mercury-free gold processing for artisanal and small-scale gold miners in Ghana",
+          "year_of_publication": "2010",
+          "cited_by": 23,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:UeHWp8X0CEIC"
+        },
+        {
+          "title_of_paper": "Effect of Carbonaceous Characteristics on biodegradation and preg-robbing behavior",
+          "year_of_publication": "2006",
+          "cited_by": 20,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:0EnyYjriUFMC"
+        },
+        {
+          "title_of_paper": "Contours of risk: spatializing human behaviors to understand disease dynamics in changing landscapes",
+          "year_of_publication": "2012",
+          "cited_by": 18,
+          "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=958rufEAAAAJ&citation_for_view=958rufEAAAAJ:QIV2ME_5wuYC"
+        }
+      ]
+    }
+  ]

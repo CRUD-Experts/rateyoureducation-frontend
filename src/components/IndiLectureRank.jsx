@@ -20,7 +20,7 @@ export const IndiLectureRank = ({
 			className="group flex items-center justify-between gap-5 bg-light-100 px-10 py-3 w-full border border-primary-200 rounded-xl mb-3 cursor-pointer hover:drop-shadow-xl hover:shadow-light-600">
 			<div className="flex gap-3 flex-col mobile:flex-row mobile:items-center items-start">
 				<p>#{rank}</p>
-				<div className="w-11 h-11 bg-primary-100 rounded-lg overflow-hidden">
+				<div className="w-20 h-20 bg-primary-100 rounded-lg overflow-hidden">
 					<img
 						src={imageUrl || "https://via.placeholder.com/150"}
 						alt={`Logo of ${name}`}

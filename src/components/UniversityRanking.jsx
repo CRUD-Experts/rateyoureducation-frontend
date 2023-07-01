@@ -25,12 +25,18 @@ const UniversityRanking = ({
 			.then((res) => {
 				if (!res.ok) {
 					setError(true);
-					setErrorMsg("Something went wrong!");
-					throw new Error("Something went wrong!");
+					// throw new Error("Something went wrong!");
+					console.log(res.status);
+					return res.status;
 				}
 				return res.json();
 			})
 			.then((data) => {
+				if(data > 400) {
+					setErrorMsg("Something went wrong!");
+					// throw new Error("Something went wrong!");
+					return
+				}
 				setIsLoaded(true);
 				setData(data);
 				// console.log(data);
@@ -88,7 +94,7 @@ const UniversityRanking = ({
 
 					{hasButton && (
 						<Button
-							to="/uni-rankings"
+							to="rankings/universities"
 							className="ml-8">
 							View All
 						</Button>

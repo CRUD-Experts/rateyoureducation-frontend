@@ -25,11 +25,15 @@ export const LecturerRanking = ({
 				if (!res.ok) {
 					setError(true);
 					setErrorMsg("Something went wrong!");
-					// throw new Error("Something went wrong!");
+          return res.status;
 				}
 				return res.json();
 			})
 			.then((data) => {
+        if(data > 400) {
+          setErrorMsg("Something went wrong!");
+          return 
+        }
 				setIsLoaded(true);
 				setData(data);
 				// console.log(data);
@@ -61,20 +65,27 @@ export const LecturerRanking = ({
 								</button>
 							</div>
 						) : (
-							data.map((rank, index) => (
-								<IndiLectureRank
-									rank={index + 1}
-									key={index}
-									name={rank.name}
-									imageUrl={rank.image}
-									citations={rank.indexes.Citations}
-									hIndex={rank.indexes.Citations}
-								/>
-							))
+							data.map((rank, index) => {
+								if (index + 1 > limit) return;
+								return (
+									<IndiLectureRank
+										rank={index + 1}
+										key={index}
+										name={rank.name}
+										imageUrl={rank.image}
+										citations={rank.indexes.Citations}
+										hIndex={rank.indexes.Citations}
+									/>
+								);
+							})
 						)}
 
 						{hasButton && (
-							<Button className="ml-8">View All</Button>
+							<Button
+								to="rankings/scholars"
+								className="ml-8">
+								View All
+							</Button>
 						)}
 					</div>
 					{hasImage && <StackedImages />}

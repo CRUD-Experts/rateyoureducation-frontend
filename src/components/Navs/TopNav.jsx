@@ -35,7 +35,7 @@ export const TopNav = () => {
 				<FontAwesomeIcon icon={faBars} />
 				<span className="ml-2">Menu</span>
 			</button>
-			<nav
+			<motion.nav
 				ref={navCtrl}
 				className="mobile-slide-in-top fixed mobile:relative hidden 
 				mobile:flex mobile:flex-row flex-col justify-center 
@@ -44,6 +44,7 @@ export const TopNav = () => {
 				top-0 left-0 transition-all duration-150 
 				ease-in-out">
 				<button
+				
 					onClick={closeNav}
 					className="mobile:hidden text-3xl font-light absolute top-6 right-5">
 					<FontAwesomeIcon icon={faTimes} />
@@ -115,7 +116,7 @@ export const TopNav = () => {
 					}>
 					Methodology
 				</NavLink>
-			</nav>
+			</motion.nav>
 		</div>
 	);
 };

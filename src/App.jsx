@@ -6,9 +6,9 @@ import { Comparison } from "./Pages/Public/Comparison";
 import { Methodology } from "./Pages/Public/Methodology";
 import Signup from "./Pages/Public/Signup";
 // import { UniRankings } from "./Pages/Public/UniRankings";
-import { ScholarRankings } from "./Pages/Public/ScholarRankings";
 import { RankingsLayout } from "./Pages/Layouts/RankingsLayout";
 import UniversityRanking from "./components/UniversityRanking";
+import { LecturerRanking } from "./components/LecturerRanking";
 
 function App() {
   return (
@@ -18,8 +18,8 @@ function App() {
           <Route path="/" element={<MainLayout />}>
             <Route index element={<Home />} />
             <Route path="rankings" element={<RankingsLayout />} >
-              <Route path="universities" element={<UniversityRanking limit={10} hasImages={false} hasButton={false} />} />
-              <Route path="scholars" element={<ScholarRankings />} />
+              <Route path="universities" element={<UniversityRanking limit={10} hasImages={false} hasButton={false} animate={false} />} />
+              <Route path="scholars" element={<LecturerRanking limit={10} hasButton={false} hasImage={false} animate={false} />} />
             </Route>
             <Route path="comparison" element={<Comparison />} />
             <Route path="methodology" element={<Methodology />} />

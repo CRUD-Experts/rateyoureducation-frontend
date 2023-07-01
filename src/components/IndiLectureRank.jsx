@@ -7,7 +7,6 @@ export const IndiLectureRank = ({
 	imageUrl,
 	name,
 	location,
-	research,
 	citations,
 	hIndex,
 }) => {
@@ -15,7 +14,7 @@ export const IndiLectureRank = ({
 		<motion.div
 			initial={{ translateY: 50, scale: 0.9 }}
 			whileHover={{
-				scale: 1.0,
+				scale: .91,
 			}}
 			whileInView={{ translateY: 0 }}
 			className="group flex items-center justify-between gap-5 bg-light-100 px-10 py-3 w-full border border-primary-200 rounded-xl mb-3 cursor-pointer hover:drop-shadow-xl hover:shadow-light-600">
@@ -32,8 +31,6 @@ export const IndiLectureRank = ({
 					<p className="font-semibold m-0">{name}</p>
 					<small className="m-0">{location}</small>
 					<div className="hidden items-center gap-2 mobile:flex text-sm text-primary-700">
-						<small>{research} scholars</small>
-						<DotSeparator color="bg-primary-700" />
 						<small>{citations} publications</small>
 						<DotSeparator color="bg-primary-700" />
 						<small>{hIndex} h-index</small>

@@ -3,6 +3,7 @@ import Section from "../../components/Elements/Section";
 // import UniversityRanking from "../../components/UniversityRanking";
 
 export const RankingsLayout = () => {
+    
 	return (
 		<>
 			<section className="bg-light-500 w-full h-80 bg-rankHeader bg-no-repeat bg-cover bg-center">

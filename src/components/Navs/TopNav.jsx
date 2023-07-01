@@ -70,13 +70,13 @@ export const TopNav = () => {
 							className="ml-2"
 						/>
 					</button>
-					{isDroppedDown && (
-						<AnimatePresence>
+					<AnimatePresence>
+					{isDroppedDown ? (
 							<motion.div
 								initial={{ opacity: 0, y: -20 }}
 								animate={{ opacity: 1, y: 0 }}
 								exit={{ opacity: 0, y: -20 }}
-								className=" flex flex-col gap-5 absolute right-0  w-max bg-light-100 px-4 py-6 rounded-sm shadow-2xl">
+								className=" flex flex-col gap-5 absolute -left-1/2  w-max bg-light-100 px-4 py-6 rounded-sm shadow-2xl">
 								<Link
 									to="rankings/universities"
 									onClick={closeNav}
@@ -91,8 +91,8 @@ export const TopNav = () => {
 									Scholar Rankings
 								</Link>
 							</motion.div>
-						</AnimatePresence>
-					)}
+					): null}
+					</AnimatePresence>
 				</div>
 
 				<NavLink

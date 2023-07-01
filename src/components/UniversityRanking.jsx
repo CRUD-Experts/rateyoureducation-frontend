@@ -2,54 +2,53 @@
 import Section from "./Elements/Section";
 import SectionHeader from "./Headers/SectionHeader";
 import { IndiRanks } from "./IndiRanks";
-// import { universities } from "../DummyData";
 import { StackedImages } from "./Aesthetics/StackedImages";
 import { Button } from "./Elements/Buttons/Button";
 import { useEffect, useState } from "react";
+import { IndiRankLoader } from "./loaders/IndiRankLoader";
 
 const UniversityRanking = ({
 	limit = 5,
 	hasButton = true,
 	hasImages = true,
+	animate = true,
 }) => {
-	// const data = universities;
 	const [error, setError] = useState(false);
-	const [errorMsg, setErrorMsg] = useState('');
+	const [errorMsg, setErrorMsg] = useState("");
 	const [isLoaded, setIsLoaded] = useState(false);
 	const [data, setData] = useState([]);
 
-
 	useEffect(() => {
-		const url = 'https://rateyoureducation-backend.up.railway.app/universities';
+		const url =
+			"https://rateyoureducation-backend.up.railway.app/universities";
 		fetch(url)
 			.then((res) => {
-				if(!res.ok) {
+				if (!res.ok) {
 					setError(true);
-					setErrorMsg('Something went wrong!');
-					throw new Error('Something went wrong!');
+					setErrorMsg("Something went wrong!");
+					throw new Error("Something went wrong!");
 				}
-				return res.json()
+				return res.json();
 			})
-			.then(data => {
+			.then((data) => {
 				setIsLoaded(true);
 				setData(data);
 				// console.log(data);
-			}
-			)
+			})
 			.catch((err) => {
 				setIsLoaded(true);
 				setError(true);
 				setErrorMsg(err);
-			}
-			);
-	}, [
-		setIsLoaded,
-		setData,
-		setError,
-	]);
+			});
+	}, [setIsLoaded, setData, setError]);
 
+	if (!isLoaded) {
+		return (
+			<IndiRankLoader />
+		);
+	}
 	return (
-		<Section className="">
+		<Section animate={animate} >
 			<SectionHeader
 				title="Top Universities"
 				subtitle="Welcome to our TOP UNIVERSITY section, where we showcase
@@ -63,15 +62,11 @@ const UniversityRanking = ({
 						Top {limit} Universities
 					</h3>
 					{error ? (
-						<div className="text-center p-5 bg-red-600/60 text-white rounded-md">
-							<p>
-								{errorMsg}
-							</p>
-							<button className="px-4 py-2 bg-primary-700 hover:bg-primary-800 text-light-100 rounded-sm mt-3" >
+						<div className="text-center p-5 bg-red-600/60 text-white rounded-md w-full max-w-lg">
+							<p>{errorMsg}</p>
+							<button className="px-4 py-2 bg-primary-700 hover:bg-primary-800 text-light-100 rounded-sm mt-3">
 								Try Again
 							</button>
-
-
 						</div>
 					) : (
 						data.map((rank, index) => {

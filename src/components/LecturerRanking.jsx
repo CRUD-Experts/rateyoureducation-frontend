@@ -2,6 +2,7 @@
 import { StackedImages } from "./Aesthetics/StackedImages";
 import { Button } from "./Elements/Buttons/Button";
 import Section from "./Elements/Section";
+import { FetchError } from "./Errors/Errors";
 import SectionHeader from "./Headers/SectionHeader";
 import { IndiLectureRank } from "./IndiLectureRank";
 import { IndiRankLoader } from "./loaders/IndiRankLoader";
@@ -14,38 +15,38 @@ export const LecturerRanking = ({
 	animate = true,
 }) => {
 	const [error, setError] = useState(false);
-	const [errorMsg, setErrorMsg] = useState("");
-	const [isLoaded, setIsLoaded] = useState(false);
+	const [isLoading, setIsLoading] = useState(true);
 	const [data, setData] = useState([]);
 
-	useEffect(() => {
+	async function getScholars() {
+		setIsLoading(true)
 		const url = "https://rateyoureducation-backend.up.railway.app/scholars";
-		fetch(url)
-			.then((res) => {
-				if (!res.ok) {
-					setError(true);
-					setErrorMsg("Something went wrong!");
-          return res.status;
-				}
-				return res.json();
-			})
-			.then((data) => {
-        if(data > 400) {
-          setErrorMsg("Something went wrong!");
-          return 
-        }
-				setIsLoaded(true);
-				setData(data);
-				// console.log(data);
-			})
-			.catch((err) => {
-				setIsLoaded(true);
-				setError(true);
-				setErrorMsg(err);
+		try {
+			const response = await fetch(url, {
+				accept: "application/json",
 			});
-	}, [setIsLoaded, setData, setError]);
 
-	if (!isLoaded) {
+			setIsLoading(false);
+			if (!response.ok) {
+				setError(true);
+			} else {
+				const universities = await response.json();
+				console.log(universities);
+
+				setData(universities);
+			}
+			setIsLoading(false);
+		} catch (err) {
+			setError(true);
+			setIsLoading(false);
+		}
+	}
+
+	useEffect(() => {
+		getScholars();
+	}, []);
+
+	if (isLoading) {
 		return <IndiRankLoader />;
 	}
 	return (
@@ -58,12 +59,7 @@ export const LecturerRanking = ({
 							Top {limit} scholars
 						</h3>
 						{error ? (
-							<div className="text-center p-5 bg-red-600/60 text-white rounded-md w-full max-w-lg">
-								<p>{errorMsg}</p>
-								<button className="px-4 py-2 bg-primary-700 hover:bg-primary-800 text-light-100 rounded-sm mt-3">
-									Try Again
-								</button>
-							</div>
+							<FetchError tryFunction={getScholars} />
 						) : (
 							data.map((rank, index) => {
 								if (index + 1 > limit) return;

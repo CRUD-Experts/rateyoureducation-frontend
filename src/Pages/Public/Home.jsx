@@ -12,7 +12,7 @@ export const Home = () => {
 			</section>
 			<Features />
 			<UniversityRanking />
-			{/* <LecturerRanking /> */}
+			<LecturerRanking />
 			<AboutSection />
 		</>
 	);

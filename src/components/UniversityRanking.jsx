@@ -6,6 +6,7 @@ import { StackedImages } from "./Aesthetics/StackedImages";
 import { Button } from "./Elements/Buttons/Button";
 import { useEffect, useState } from "react";
 import { IndiRankLoader } from "./loaders/IndiRankLoader";
+// import { Link } from "react-router-dom";
 
 const UniversityRanking = ({
 	limit = 5,
@@ -32,10 +33,10 @@ const UniversityRanking = ({
 				return res.json();
 			})
 			.then((data) => {
-				if(data > 400) {
+				if (data > 400) {
 					setErrorMsg("Something went wrong!");
 					// throw new Error("Something went wrong!");
-					return
+					return;
 				}
 				setIsLoaded(true);
 				setData(data);
@@ -49,12 +50,10 @@ const UniversityRanking = ({
 	}, [setIsLoaded, setData, setError]);
 
 	if (!isLoaded) {
-		return (
-			<IndiRankLoader />
-		);
+		return <IndiRankLoader />;
 	}
 	return (
-		<Section animate={animate} >
+		<Section animate={animate} className={'px-5'}>
 			<SectionHeader
 				title="Top Universities"
 				subtitle="Welcome to our TOP UNIVERSITY section, where we showcase
@@ -78,16 +77,17 @@ const UniversityRanking = ({
 						data.map((rank, index) => {
 							if (index + 1 > limit) return;
 							return (
-								<IndiRanks
-									rank={index + 1}
-									key={index}
-									name={rank.vfn_id}
-									logo={rank.logo}
-									scholars={rank.number_of_authors}
-									publications={rank.total_citations}
-									hIndex={rank.total_h_index}
-									loaded={isLoaded}
-								/>
+									<IndiRanks
+										id={rank._id}
+										rank={index + 1}
+										key={index}
+										name={rank.vfn_id}
+										logo={rank.logo}
+										scholars={rank.number_of_authors}
+										publications={rank.total_citations}
+										hIndex={rank.total_h_index}
+										loaded={isLoaded}
+									/>
 							);
 						})
 					)}

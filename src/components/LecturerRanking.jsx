@@ -50,7 +50,7 @@ export const LecturerRanking = ({
 	}
 	return (
 		<>
-			<Section animate={animate}>
+			<Section animate={animate} className={'px-5'} >
 				<SectionHeader title="Best Lecturers" />
 				<div className="flex tablet:flex-row flex-col-reverse gap-10 mt-14 items-center">
 					<div className="w-full">

@@ -34,8 +34,6 @@ const UniversityRanking = ({
 				setError(true);
 			} else {
 				const universities = await response.json();
-				console.log(universities);
-
 				setData(universities);
 			}
 			setIsLoading(false);

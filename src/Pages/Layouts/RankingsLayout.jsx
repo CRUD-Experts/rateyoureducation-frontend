@@ -1,13 +1,21 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Section from "../../components/Elements/Section";
 // import UniversityRanking from "../../components/UniversityRanking";
 
 export const RankingsLayout = () => {
+	// get current page
+	const { pathname } = useLocation();
+	const currentPage = pathname.split("/")[2];
+
+
     
 	return (
 		<>
-			<section className="bg-light-500 w-full h-80 bg-rankHeader bg-no-repeat bg-cover bg-center">
-				<div className="bg-black bg-opacity-60 w-full h-full"></div>
+			<section className="bg-light-500 w-full h-80 bg-rankHeader flex items-center justify-center bg-no-repeat bg-cover bg-center relative isolate">
+				<div className="bg-black bg-opacity-60 w-full h-full absolute top-0 left-0 -z-10"></div>
+				<h1 className="text-center text-4xl text-light-100 font-extrabold">
+					{currentPage === "universities" ? "University" : "Scholar"} Rankings
+				</h1>
 			</section>
 			<Section className="mb-10" animate={false} >
 				<div className="p-5 m-5 border border-light-600 rounded-md">

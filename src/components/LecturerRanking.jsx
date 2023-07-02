@@ -65,6 +65,7 @@ export const LecturerRanking = ({
 									<IndiLectureRank
 										rank={index + 1}
 										key={index}
+										university={rank.university}
 										name={rank.name}
 										imageUrl={rank.image}
 										citations={rank.indexes.Citations}

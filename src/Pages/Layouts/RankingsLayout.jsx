@@ -3,11 +3,8 @@ import Section from "../../components/Elements/Section";
 // import UniversityRanking from "../../components/UniversityRanking";
 
 export const RankingsLayout = () => {
-	// get current page
 	const { pathname } = useLocation();
 	const currentPage = pathname.split("/")[2];
-
-
     
 	return (
 		<>
@@ -72,7 +69,6 @@ export const RankingsLayout = () => {
 
       <Section className={'p-10'} animate={false}>
 
-        {/* <UniversityRanking hasButton={false} hasImages={false} limit={10}  /> */}
         <Outlet />
       </Section>
 		</>

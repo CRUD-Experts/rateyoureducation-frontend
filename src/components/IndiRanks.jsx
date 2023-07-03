@@ -15,11 +15,12 @@ export const IndiRanks = ({
 }) => {
 	return (
 		<motion.div
-			initial={{ opacity: 0, translateY: 50, scale: 0.9 }}
+			initial={{ opacity: 0, x: 50, scale: 0.9 }}
 			whileHover={{
 				scale: 0.91,
 			}}
-			whileInView={{ opacity: 1, translateY: 0 }}
+			whileInView={{ opacity: 1, x: 0 }}
+			exit={{ opacity: 0, x: 50, scale: 0.9 }}
 			className="group flex flex-col mobile:flex-row mobile:items-center justify-between gap-5 bg-light-100 px-10 py-3 w-full border border-primary-200 rounded-xl mb-3 cursor-pointer hover:drop-shadow-xl hover:shadow-light-600">
 			<div className="flex gap-3 flex-col mobile:flex-row mobile:items-center items-start">
 				<p>#{rank}</p>

@@ -5,7 +5,7 @@ export const StackedImages = ({ imgOne, imgTwo, imgThree }) => {
 
 	return (
 		<AnimatePresence>
-			<div className="h-96 relative isolate w-full px-2 overflow-hidden">
+			<div className="hidden mobile:block h-96 relative isolate w-full px-2 overflow-hidden">
 				<motion.div
 					initial={{ translateX: 150, opacity: 0 }}
                     whileInView={{ translateX: 0, opacity: 1 }}

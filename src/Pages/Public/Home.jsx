@@ -11,8 +11,8 @@ export const Home = () => {
 				<HomeCarousel />
 			</section>
 			<Features />
-			<UniversityRanking />
-			<LecturerRanking />
+			<UniversityRanking animate={false} />
+			<LecturerRanking animate={false} />
 			<AboutSection />
 		</>
 	);

@@ -7,6 +7,7 @@ import { Button } from "./Elements/Buttons/Button";
 import { useEffect, useState } from "react";
 import { IndiRankLoader } from "./loaders/IndiRankLoader";
 import { FetchError } from "./Errors/Errors";
+import { AnimatePresence } from "framer-motion";
 // import { Link } from "react-router-dom";
 
 const UniversityRanking = ({
@@ -65,26 +66,29 @@ const UniversityRanking = ({
 					<h3 className="mb-2 font-semibold">
 						Top {limit} Universities
 					</h3>
-					{error ? (
-						<FetchError tryFunction={getUniversities} />
-					) : (
-						data.map((rank, index) => {
-							if (index + 1 > limit) return;
-							return (
-								<IndiRanks
-									id={rank._id}
-									rank={index + 1}
-									key={index}
-									name={rank.metadata[0].org}
-									location={`${rank.metadata[0].country}, ${rank.metadata[0].continent}`}
-									logo={rank.logo}
-									scholars={rank.number_of_scholars}
-									publications={rank.total_citations}
-									hIndex={rank.total_h_index}
-								/>
-							);
-						})
-					)}
+					<AnimatePresence>
+						{error ? (
+							<FetchError tryFunction={getUniversities} />
+						) : (
+							data.map((rank, index) => {
+								if (index + 1 > limit) return;
+								return (
+									<IndiRanks
+										id={rank._id}
+										rank={index + 1}
+										key={index}
+										name={rank.metadata[0].org}
+										location={`${rank.metadata[0].country}, ${rank.metadata[0].continent}`}
+										logo={rank.logo}
+										scholars={rank.number_of_scholars}
+										publications={rank.total_citations}
+										hIndex={rank.total_h_index}
+									/>
+								);
+							})
+						)}
+					</AnimatePresence>
+
 					{hasButton && (
 						<Button
 							to="rankings/universities"

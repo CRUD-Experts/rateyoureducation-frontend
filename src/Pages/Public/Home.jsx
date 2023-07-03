@@ -10,7 +10,7 @@ export const Home = () => {
 			<section className="w-full h-md mobile:h-lg desktop:h-xl bg-light-900 relative">
 				<HomeCarousel />
 			</section>
-			<Features />
+			<Features animate={false} />
 			<UniversityRanking animate={false} />
 			<LecturerRanking animate={false} />
 			<AboutSection />

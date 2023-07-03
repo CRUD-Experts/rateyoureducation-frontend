@@ -4,9 +4,9 @@ import uniIcon from "../../assets/icons/University Campus.svg";
 import starIcon from "../../assets/icons/Star Filled.svg";
 import Section from "../Elements/Section";
 
-const Features = () => {
+const Features = (animate = true) => {
   return (
-    <Section className="bg-light-100 relative z-20 tablet:-mt-20 mb-9 p-8 flex flex-col mobile:flex-row justify-between gap-4 rounded-md shadow-xl ">
+    <Section animate ={animate} className="bg-light-100 relative z-20 tablet:-mt-20 mb-9 p-8 flex flex-col mobile:flex-row justify-between gap-4 rounded-md shadow-xl ">
       <Feature
         icon={capIcon}
         title="Lecturer"

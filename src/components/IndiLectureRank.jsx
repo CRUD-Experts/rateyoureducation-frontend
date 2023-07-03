@@ -7,7 +7,7 @@ export const IndiLectureRank = ({
 	rank,
 	imageUrl,
 	name,
-	location,
+	university,
 	citations,
 	hIndex,
 }) => {
@@ -30,7 +30,7 @@ export const IndiLectureRank = ({
 				</div>
 				<div>
 					<p className="font-semibold m-0">{name}</p>
-					<small className="m-0">{location}</small>
+					<small className="m-0">{university}</small>
 					<div className="hidden items-center gap-2 mobile:flex text-sm text-primary-700">
 						<small>{citations} publications</small>
 						<DotSeparator color="bg-primary-700" />

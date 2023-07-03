@@ -20,7 +20,7 @@ const UniversityRanking = ({
 	const [data, setData] = useState([]);
 
 	async function getUniversities() {
-		setIsLoading(true)
+		setIsLoading(true);
 		const url =
 			"https://rateyoureducation-backend.up.railway.app/universities";
 
@@ -68,22 +68,22 @@ const UniversityRanking = ({
 					{error ? (
 						<FetchError tryFunction={getUniversities} />
 					) : (
-							data.map((rank, index) => {
-								if (index + 1 > limit) return;
-								return (
-										<IndiRanks
-											id={rank._id}
-											rank={index + 1}
-											key={index}
-											name={rank.vfn_id}
-											logo={rank.logo}
-											scholars={rank.number_of_authors}
-											publications={rank.total_citations}
-											hIndex={rank.total_h_index}
-										/>
-								);
-							}
-						)
+						data.map((rank, index) => {
+							if (index + 1 > limit) return;
+							return (
+								<IndiRanks
+									id={rank._id}
+									rank={index + 1}
+									key={index}
+									name={rank.metadata[0].org}
+									location={`${rank.metadata[0].country}, ${rank.metadata[0].continent}`}
+									logo={rank.logo}
+									scholars={rank.number_of_scholars}
+									publications={rank.total_citations}
+									hIndex={rank.total_h_index}
+								/>
+							);
+						})
 					)}
 					{hasButton && (
 						<Button

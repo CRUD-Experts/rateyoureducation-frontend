@@ -20,7 +20,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path="rankings" element={<RankingsLayout />} >
               <Route path="universities" element={<UniversityRanking limit={10} hasImages={false} hasButton={false} animate={false} />} />
-              <Route path="scholars" element={<LecturerRanking limit={10} hasButton={false} hasImage={false} animate={false} />} />
+              <Route path="scholars" element={<LecturerRanking limit={20} hasButton={false} hasImage={false} animate={false} />} />
             </Route>
             <Route path="rankings/universities/:id" element={<UniversityDetails />} />
 

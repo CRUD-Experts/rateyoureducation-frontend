@@ -3,23 +3,23 @@ import Section from "../../components/Elements/Section";
 // import UniversityRanking from "../../components/UniversityRanking";
 
 export const RankingsLayout = () => {
-	// get current page
 	const { pathname } = useLocation();
 	const currentPage = pathname.split("/")[2];
 
-
-    
 	return (
 		<>
 			<section className="bg-light-500 w-full h-80 bg-rankHeader flex items-center justify-center bg-no-repeat bg-cover bg-center relative isolate">
 				<div className="bg-black bg-opacity-60 w-full h-full absolute top-0 left-0 -z-10"></div>
 				<h1 className="text-center text-4xl text-light-100 font-extrabold">
-					{currentPage === "universities" ? "University" : "Scholar"} Rankings
+					{currentPage === "universities" ? "University" : "Scholar"}{" "}
+					Rankings
 				</h1>
 			</section>
-			<Section className="mb-10" animate={false} >
+			<Section
+				className="mb-10"
+				animate={false}>
 				<div className="p-5 m-5 border border-light-600 rounded-md">
-					<form className="flex flex-col items-center" >
+					<form className="flex flex-col items-center">
 						<input
 							type="text"
 							placeholder="Search for a university"
@@ -70,11 +70,11 @@ export const RankingsLayout = () => {
 				</div>
 			</Section>
 
-      <Section className={'p-10'} animate={false}>
-
-        {/* <UniversityRanking hasButton={false} hasImages={false} limit={10}  /> */}
-        <Outlet />
-      </Section>
+			<Section
+				className={"p-1 mobile:p-10"}
+				animate={false}>
+				<Outlet />
+			</Section>
 		</>
 	);
 };

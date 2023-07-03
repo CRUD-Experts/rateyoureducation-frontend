@@ -67,13 +67,6 @@
         hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
 	}
 
-	.light-btn {
-		@apply ring-light-500  bg-light-500 text-primary-800
-        hover:text-primary-100 inline-block transition-all 
-        duration-300 delay-200 relative after:absolute after:content-[''] 
-        after:top-0 after:left-0 after:w-0 after:h-full after:bg-light-900 
-        hover:after:w-full after:transition-all after:duration-300 after:delay-200 isolate after:-z-20 overflow-hidden;
-	}
 
 	.data-table {
 		@apply w-full table-auto border-spacing-y-4 border-separate bg-light-100 p-4 mt-10;

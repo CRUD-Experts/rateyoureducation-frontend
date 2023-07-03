@@ -14,6 +14,7 @@ import { FetchError } from "../../components/Errors/Errors";
 import Section from "../../components/Elements/Section";
 import { SummaryCard } from "../../components/Cards/SummaryCard";
 import SectionHeader from "../../components/Headers/SectionHeader";
+import { UniversityScholars } from "../../components/Lists/UniversityScholars";
 
 export const UniversityDetails = () => {
 	const { id } = useParams();
@@ -238,10 +239,21 @@ export const UniversityDetails = () => {
 						based on our methodology, {""}
 						{metadata.alias} is ranked 4th in the global university
 						rankings. To know more about {metadata.alias}, click{" "}
-						<a href={metadata.url} className="text-primary-700 italic hover:underline" >here</a>
+						<a
+							href={metadata.url}
+							className="text-primary-700 italic hover:underline"
+							target="_blank"
+							rel="noreferrer">
+							here
+						</a>
 					</p>
 				</Section>
 			)}
+
+			<Section animate={false} className={'mt-20'} >
+				<SectionHeader title={`Scholars in ${metadata.org}`} />
+				<UniversityScholars id={id} />
+			</Section>
 		</>
 	);
 };

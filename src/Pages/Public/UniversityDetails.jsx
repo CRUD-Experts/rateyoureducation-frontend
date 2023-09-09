@@ -27,7 +27,7 @@ export const UniversityDetails = () => {
 	useEffect(() => {
 		async function getUniversity() {
 			setIsLoading(true);
-			const url = `https://rateyoureducation-backend.up.railway.app/universities/${id}`;
+			const url = `https://rate-your-education.onrender.com/universities/${id}`;
 			try {
 				const response = await fetch(url);
 

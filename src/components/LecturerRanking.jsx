@@ -20,7 +20,7 @@ export const LecturerRanking = ({
 
 	async function getScholars() {
 		setIsLoading(true)
-		const url = "https://rateyoureducation-backend.up.railway.app/scholars";
+		const url = "https://rate-your-education.onrender.com/scholars";
 		try {
 			const response = await fetch(url, {
 				accept: "application/json",

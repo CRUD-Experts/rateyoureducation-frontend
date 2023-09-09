@@ -23,7 +23,7 @@ const UniversityRanking = ({
 	async function getUniversities() {
 		setIsLoading(true);
 		const url =
-			"https://rateyoureducation-backend.up.railway.app/universities";
+			"https://rate-your-education.onrender.com/universities";
 
 		try {
 			const response = await fetch(url, {

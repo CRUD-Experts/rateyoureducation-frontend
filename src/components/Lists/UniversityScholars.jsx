@@ -16,7 +16,7 @@ export const UniversityScholars = ({ id }) => {
         async function getScholars() {
             setIsLoading(true);
             const url =
-                "https://rateyoureducation-backend.up.railway.app/scholars?university_id=" +
+                "https://rate-your-education.onrender.com/scholars?university_id=" +
                 id;
             try {
                 const response = await fetch(url, {

@@ -7,9 +7,9 @@ import { Methodology } from "./Pages/Public/Methodology";
 import Signup from "./Pages/Public/Signup";
 // import { UniRankings } from "./Pages/Public/UniRankings";
 import { RankingsLayout } from "./Pages/Layouts/RankingsLayout";
-import UniversityRanking from "./components/UniversityRanking";
 import { LecturerRanking } from "./components/LecturerRanking";
 import { UniversityDetails } from "./Pages/Public/UniversityDetails";
+import { UniversityRanking } from "./components/UniversityRanking";
 
 function App() {
   return (

@@ -14,4 +14,4 @@ const Section = ({ children, className, animate = true }) => {
 	);
 };
 
-export default Section;
+	export default Section;

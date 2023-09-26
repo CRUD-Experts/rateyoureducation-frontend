@@ -4,13 +4,15 @@ import SectionHeader from "./Headers/SectionHeader";
 import { IndiRanks } from "./IndiRanks";
 import { StackedImages } from "./Aesthetics/StackedImages";
 import { Button } from "./Elements/Buttons/Button";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { IndiRankLoader } from "./loaders/IndiRankLoader";
 import { FetchError } from "./Errors/Errors";
 import { AnimatePresence } from "framer-motion";
+import axios from "axios";
+import { BACKEND_API_URL } from "../utilities/constants";
 // import { Link } from "react-router-dom";
 
-const UniversityRanking = ({
+export const UniversityRanking = ({
 	limit = 5,
 	hasButton = true,
 	hasImages = true,
@@ -19,33 +21,29 @@ const UniversityRanking = ({
 	const [error, setError] = useState(false);
 	const [isLoading, setIsLoading] = useState(true);
 	const [data, setData] = useState([]);
+	// const [uniData, setUniData] = useState([]);
+	const [skip, setSkip] = useState(1);
 
-	async function getUniversities() {
+	const getUniversities = useCallback(() => {
 		setIsLoading(true);
-		const url =
-			"https://rateyoureducation-backend.up.railway.app/universities";
-
-		try {
-			const response = await fetch(url, {
-				accept: "application/json",
-			});
-
-			setIsLoading(false);
-			if (!response.ok) {
+		setError(false);
+		axios.get(`${BACKEND_API_URL}/universities`, {
+			params: {
+				skip: skip,
+			},
+		})
+			.then((response) => {
+				setData(response.data);
+			})
+			.catch((error) => {
 				setError(true);
-			} else {
-				const universities = await response.json();
-				setData(universities);
-			}
-			setIsLoading(false);
-		} catch (err) {
-			setError(true);
-			setIsLoading(false);
-		}
-	}
+				console.log(error);
+			})
+			.finally(() => setIsLoading(false));
+	}, [skip])
 	useEffect(() => {
 		getUniversities();
-	}, []);
+	}, [getUniversities]); 
 
 	if (isLoading) {
 		return <IndiRankLoader />;
@@ -68,7 +66,7 @@ const UniversityRanking = ({
 					</h3>
 					<AnimatePresence>
 						{error ? (
-							<FetchError tryFunction={getUniversities} />
+							<FetchError />
 						) : (
 							data.map((rank, index) => {
 								if (index + 1 > limit) return;
@@ -88,7 +86,9 @@ const UniversityRanking = ({
 							})
 						)}
 					</AnimatePresence>
-
+					<button onClick={() => setSkip(skip + 10)}>
+						Load more
+					</button>
 					{hasButton && (
 						<Button
 							to="rankings/universities"
@@ -108,5 +108,3 @@ const UniversityRanking = ({
 		</Section>
 	);
 };
-
-export default UniversityRanking;

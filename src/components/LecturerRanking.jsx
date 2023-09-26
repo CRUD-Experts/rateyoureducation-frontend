@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import { BACKEND_API_URL } from "../utilities/constants";
 import { StackedImages } from "./Aesthetics/StackedImages";
 import { Button } from "./Elements/Buttons/Button";
 import Section from "./Elements/Section";
@@ -6,7 +6,8 @@ import { FetchError } from "./Errors/Errors";
 import SectionHeader from "./Headers/SectionHeader";
 import { IndiLectureRank } from "./IndiLectureRank";
 import { IndiRankLoader } from "./loaders/IndiRankLoader";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
+import PropTypes from 'prop-types';
 
 export const LecturerRanking = ({
 	limit = 5,
@@ -18,9 +19,9 @@ export const LecturerRanking = ({
 	const [isLoading, setIsLoading] = useState(true);
 	const [data, setData] = useState([]);
 
-	async function getScholars() {
+	const getScholars = useCallback( async () => {
 		setIsLoading(true)
-		const url = "https://rateyoureducation-backend.up.railway.app/scholars";
+		const url = `${BACKEND_API_URL}/scholars`;
 		try {
 			const response = await fetch(url, {
 				accept: "application/json",
@@ -38,11 +39,11 @@ export const LecturerRanking = ({
 			setError(true);
 			setIsLoading(false);
 		}
-	}
+	}, [])
 
 	useEffect(() => {
 		getScholars();
-	}, []);
+	}, [getScholars]);
 
 	if (isLoading) {
 		return <IndiRankLoader />;
@@ -69,7 +70,7 @@ export const LecturerRanking = ({
 										name={rank.name}
 										imageUrl={rank.image}
 										citations={rank.indexes.Citations}
-										hIndex={rank.indexes.Citations}
+										hIndex={rank.indexes.hIndex}
 									/>
 								);
 							})
@@ -88,4 +89,11 @@ export const LecturerRanking = ({
 			</Section>
 		</>
 	);
+};
+
+LecturerRanking.propTypes = {
+	limit: PropTypes.number,
+	hasButton: PropTypes.bool,
+	animate: PropTypes.bool,
+	hasImage: PropTypes.bool,
 };

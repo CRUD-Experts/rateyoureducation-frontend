@@ -8,13 +8,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link, useParams } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { FetchError } from "../../components/Errors/Errors";
 import Section from "../../components/Elements/Section";
 import { SummaryCard } from "../../components/Cards/SummaryCard";
 import SectionHeader from "../../components/Headers/SectionHeader";
 import { UniversityScholars } from "../../components/Lists/UniversityScholars";
+import { BACKEND_API_URL } from "../../utilities/constants";
 
 export const UniversityDetails = () => {
 	const { id } = useParams();
@@ -24,37 +25,39 @@ export const UniversityDetails = () => {
 	const [data, setData] = useState([]);
 	const [metadata, setMetadata] = useState([]);
 
-	useEffect(() => {
-		async function getUniversity() {
-			setIsLoading(true);
-			const url = `https://rateyoureducation-backend.up.railway.app/universities/${id}`;
-			try {
-				const response = await fetch(url);
+	const getUniversity = useCallback(async () => {
+		setIsLoading(true);
+		const url = `${BACKEND_API_URL}/universities/${id}`;
+		try {
+			const response = await fetch(url);
 
-				if (response.status == 400) {
-					setError(true);
-					setErrorMsg("University not found");
-					setIsLoading(false);
-					return;
-				}
-
-				if (!response.ok) {
-					setError(true);
-					setIsLoading(false);
-					return;
-				}
-
-				const university = await response.json();
-				setData(university);
-				setMetadata(university.metadata[0]);
-				setError(false);
-			} catch (err) {
+			if (response.status == 400) {
 				setError(true);
+				setErrorMsg("University not found");
+				setIsLoading(false);
+				return;
 			}
-			setIsLoading(false);
+
+			if (!response.ok) {
+				setError(true);
+				setIsLoading(false);
+				return;
+			}
+
+			const university = await response.json();
+			setData(university);
+			setMetadata(university.metadata[0]);
+			setError(false);
+		} catch (err) {
+			setError(true);
 		}
+		setIsLoading(false);
+	},[id])
+
+
+	useEffect(() => {
 		getUniversity();
-	}, [id]);
+	}, [getUniversity]);
 
 	if (error) return <FetchError message={errorMsg != "" && errorMsg} />;
 

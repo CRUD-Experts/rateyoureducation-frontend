@@ -20,7 +20,7 @@ export const HomeCarousel = () => {
 					prevEl: ".prevBtn",
 				}}
 				pagination={{ clickable: true }}
-				autoplay={{ delay: 5000 }}
+				autoplay={{ delay: 10000 }}
 				loop={true}
 				className="w-full h-full bg-black">
 				<button

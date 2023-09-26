@@ -1,7 +1,7 @@
-/* eslint-disable react/prop-types */
 import { motion } from "framer-motion";
 import { DotSeparator } from "./Aesthetics/DotSeparator";
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types'
 
 export const IndiRanks = ({
 	id,
@@ -51,3 +51,14 @@ export const IndiRanks = ({
 		</motion.div>
 	);
 };
+
+IndiRanks.propTypes = {
+	id: PropTypes.string.isRequired,
+	rank: PropTypes.number.isRequired,
+	logo: PropTypes.string,
+	name: PropTypes.string.isRequired,
+	location: PropTypes.string.isRequired,
+	scholars: PropTypes.number.isRequired,
+	publications: PropTypes.number,
+	hIndex: PropTypes.number
+}
